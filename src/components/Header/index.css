@@ -43,8 +43,8 @@
 }
 
 .Mail-style{
-    height: 20px;
-    width: 25px;
+    height: 15px;
+    width: 15px;
     color: #f20304;
     margin-left:10px;
 }
@@ -372,22 +372,22 @@ padding-top: 8px;
 .header-button{
     height: 35px;
     width: 110px;
-    background-color: #f20304;
+    background-color: #ff0303;
     color:white;
     font-size: 15px;
     border-radius: 25px;
-    border: 1px solid #f20304;
+    border: 1px solid #ff0303;
     margin-left:200px ;
 }
 @media screen and (min-width:300px)and (max-width:365px) {
     .header-button{
         height: 35px;
         width: 110px;
-        background-color: #f20304;
+        background-color: #ff0303;
         color:white;
         font-size: 15px;
         border-radius: 25px;
-        border: 1px solid #f20304;
+        border: 1px solid #ff0303;
         margin-left:200px ;
     }
 }
@@ -396,11 +396,11 @@ padding-top: 8px;
         display: none;
         height: 0px;
         width: 110px;
-        background-color: #f20304;
+        background-color: #ff0303;
         color:white;
         font-size: 15px;
         border-radius: 25px;
-        border: 1px solid #f20304;
+        border: 1px solid #ff0303;
         margin-left:200px ;
     }
 }
@@ -409,11 +409,11 @@ padding-top: 8px;
         display: none;
         height: 0px;
         width: 0pxpx;
-        background-color: #f20304;
+        background-color: #ff0303;
         color:white;
         font-size: 15px;
         border-radius: 25px;
-        border: 1px solid #f20304;
+        border: 1px solid #ff0303;
         margin-left:200px ;
     }
 }
@@ -421,11 +421,11 @@ padding-top: 8px;
     .header-button{
         height: 30px;
         width: 90px;
-        background-color: #f20304;
+        background-color: #ff0303;
         color:white;
         font-size: 15px;
         border-radius: 25px;
-        border: 1px solid #f20304;
+        border: 1px solid #ff0303;
         margin-right:30px ;
     }
 
