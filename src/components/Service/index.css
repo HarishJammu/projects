@@ -21,6 +21,18 @@ body{
     background: rgb(228,228,228);
     background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
 }
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .-us-title-card-service{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 40vh;
+        width: 100vw;
+        background: rgb(228,228,228);
+        background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
+    }
+                 
+        }
 @media screen and (min-width:300px)and (max-width:365px){
     .-us-title-card-service{
         height: 30vh;
@@ -79,6 +91,17 @@ body{
     padding-left: 20px;
     padding-right: 15px;
 }
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .Our-title{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 40px;
+        color: #f80f0f;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+                 
+        }
 @media screen and (min-width:300px)and (max-width:365px){
     .Our-title{
         font-family: 'Rajdhani', sans-serif;
@@ -129,6 +152,16 @@ body{
     font-weight: bold;
     padding-left: 20px;
 }
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .Our-style{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 40px;
+        color: #030a11d8;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+                 
+        }
 @media screen and (min-width:300px)and (max-width:365px){
     .Our-style{
         font-family: 'Rajdhani', sans-serif;
@@ -192,6 +225,15 @@ body{
     color: #f80f0f;
     padding-top: 15px;
 }
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .-title-service-about{
+        font-family: 'Rajdhani', sans-serif;;
+        font-size: 22px;
+        color: #f80f0f;
+        padding-top: 15px;
+    }
+                 
+        }
 @media screen and (min-width:300px)and (max-width:365px){
     .-title-service-about{
         font-family:'Rajdhani', sans-serif;;
@@ -232,7 +274,15 @@ body{
     color: #030a11d8;
     font-weight: bold;
 }
-
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .about-title-Explore{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 24px;
+        color: #030a11d8;
+        font-weight: bold;
+    }
+                 
+        }
 @media screen and (min-width:300px)and (max-width:365px){
     .about-title-Explore{
         font-family: 'Rajdhani', sans-serif;
@@ -284,6 +334,21 @@ body{
     border-color: aliceblue;
     margin-bottom: 20px;
 }
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .service-card-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+        width:30vw;
+        background-color: #ffffff;
+        margin-left: 20px;
+        border-radius: 10px;
+        border-color: aliceblue;
+        margin-bottom: 20px;
+    }
+                 
+        }
 @media screen and (min-width:300px)and (max-width:365px){
     .service-card-details{
         height: auto;
@@ -320,7 +385,13 @@ body{
     height:60vh;
     width: 30vw;
 }
-
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .services-card-images{
+        height:60vh;
+        width: 30vw;
+    }
+                 
+        }
 @media screen and (min-width:300px)and (max-width:365px){
     .services-card-images{
         height: 80vh;
@@ -354,6 +425,17 @@ body{
    justify-content: center;
    align-items: center;
 }
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .service-it-consultancy-style-1{
+        display: flex;
+       flex-direction: row;
+       height: auto;
+       width: 62vh;
+       justify-content: center;
+       align-items: center;
+    }
+                 
+        }
 @media screen and (min-width:300px)and (max-width:365px){
     .service-it-consultancy-style-1{
         display: flex;
@@ -410,7 +492,16 @@ body{
     padding-top: 10px;
 }
 
-
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .-card-title-service{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 12px;
+        color: #0e1012fb;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+                 
+        }
 @media screen and (min-width:300px)and (max-width:365px){
     .-card-title-service{
         font-family: 'Rajdhani', sans-serif;
@@ -455,6 +546,16 @@ body{
     padding-left: 8px;
     text-align: justify;
 }
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .service-card-description{
+        font-family: "Noto Sans", sans-serif;
+        font-size: 16px;
+        color: #707071fb;
+        padding-left: 8px;
+        text-align: justify;
+    }
+                 
+        }
 @media screen and (min-width:300px)and (max-width:365px){
     .service-card-description{
         font-family: 'Rajdhani', sans-serif;
@@ -508,6 +609,17 @@ body{
     width: 100vw;
     background-color: #8a9194e5;
 }
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .-Want-you-choose-service{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height:40vh;
+        width: 100vw;
+        background-color: #8a9194e5;
+    }
+                 
+        }
 @media screen and (min-width:300px) and (max-width:365px){
     .-Want-you-choose-service{
         display: flex;
@@ -557,6 +669,16 @@ body{
     padding-top: 25px;
     padding-left: 20px;
 }
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .service-want-you-title{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 28px;
+        color: #faf5f5;
+        padding-top: 25px;
+        padding-left: 20px;
+    }
+                 
+        }
 @media screen and (min-width:300px) and (max-width:365px){
     .service-want-you-title{
         font-family: Sans-serif;
@@ -610,7 +732,21 @@ body{
     border-color: #f50202;
     margin-left: 300px;
 }
-
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .button-service{
+        height:40px;
+        width: 120px;
+        text-align: center;
+        background-color: #f50202;
+        color: white;
+        border-radius:25px ;
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 18px;
+        border-color: #f50202;
+        margin-left: 300px;
+    }
+                 
+        }
 @media screen and (min-width:300px) and (max-width:365px){
     .button-service{
         height: 30px;

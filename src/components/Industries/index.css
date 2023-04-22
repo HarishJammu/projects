@@ -14,6 +14,18 @@
     background: rgb(228,228,228);
 background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
 }
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .industrie-us-title-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 40vh;
+        width: 100vw;
+        background: rgb(228,228,228);
+    background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
+    }
+                 
+        }
 @media screen and (min-width:300px)and (max-width:365px){
     .industrie-us-title-card{
         height: 30vh;
@@ -70,7 +82,16 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
     font-weight:700;
     padding-left: 20px;
 }
-
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .Industries-style{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 50px;
+        color: #030a11d8;
+        font-weight:700;
+        padding-left: 20px;
+    }
+                 
+        }
 @media screen and (min-width:300px)and (max-width:365px){
     .Industries-style{
         font-family: 'Rajdhani', sans-serif;
@@ -126,6 +147,15 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
     color: #f80f0f;
     padding-top: 15px;
 }
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .industries-title-service{
+        font-family: sans-serif;;
+        font-size: 20px;
+        color: #f80f0f;
+        padding-top: 15px;
+    }
+                 
+        }
 @media screen and (min-width:300px)and (max-width:365px){
     .industries-title-service{
         font-family:'Rajdhani', sans-serif;;
@@ -164,6 +194,15 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
     font-size: 25px;
     font-weight: bold;
 }
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .Industries-title-Explore{
+        font-family: 'Rajdhani', sans-serif;
+        color: #000001d8;
+        font-size: 25px;
+        font-weight: bold;
+    }
+                 
+        }
 @media screen and (min-width:300px)and (max-width:365px){
     .Industries-title-Explore{
         font-family: 'Rajdhani', sans-serif;
@@ -216,6 +255,20 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
     border-color: aliceblue;
     margin-bottom: 20px;
 }
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .industries-card-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+        width:31vw;
+        background-color: #ffffff;
+        margin-left: 20px;
+        border-radius: 10px;
+        border-color: aliceblue;
+    }    
+                 
+        }
 @media screen and (min-width:300px)and (max-width:365px){
     .industries-card-details{
         height: auto;
@@ -252,7 +305,13 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
     height:60vh;
     width: 31vw;
 }
-
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .industries-images{
+        height:60vh;
+        width: 31vw;
+    }   
+                 
+        }
 @media screen and (min-width:300px)and (max-width:365px){
     .industries-images{
         height: 80vh;
@@ -285,6 +344,17 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
    justify-content: center;
    align-items: center;
 }
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .industries-it-consultancy-style-1{
+        display: flex;
+       flex-direction: row;
+       height: auto;
+       width: 31vw;
+       justify-content: center;
+       align-items: center;
+    }  
+                 
+        }
 @media screen and (min-width:300px)and (max-width:365px){
     .industries-it-consultancy-style-1{
         display: flex;
@@ -340,7 +410,16 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
     padding-top: 10px;
 }
 
-
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .industries-card-title{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 20px;
+        color: #0e1012fb;
+        font-weight: bold;
+        padding-top: 10px;
+    }  
+                 
+        }
 @media screen and (min-width:300px)and (max-width:365px){
     .industries-card-title{
         font-family: 'Rajdhani', sans-serif;
@@ -387,6 +466,17 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
     padding-left: 8px;
     text-align: justify;
 }
+
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .industries-card-description{
+        font-family: "Noto Sans", sans-serif;
+        font-size: 16px;
+        color: #707071fb;
+        padding-left: 8px;
+        text-align: justify;
+    } 
+                 
+        }
 @media screen and (min-width:300px)and (max-width:365px){
     .industries-card-description{
         font-family: 'Rajdhani', sans-serif;
@@ -436,6 +526,17 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
     width: 100vw;
     background-color: #8a9194e5;
 }
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .industries-Want-you-choose{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height:40vh;
+        width: 100vw;
+        background-color: #8a9194e5;
+    }
+                 
+        }
 @media screen and (min-width:300px) and (max-width:365px){
     .industries-Want-you-choose{
         display: flex;
@@ -494,6 +595,16 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
     padding-top: 25px;
     padding-left: 20px;
 }
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .industries-want-you-title{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 30px;
+        color: #faf5f5;
+        padding-top: 25px;
+        padding-left: 20px;
+    }
+                 
+        }
 @media screen and (min-width:300px) and (max-width:365px){
     .industries-want-you-title{
         font-family: Sans-serif;
@@ -545,7 +656,21 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
     border-color: #f50202;
     margin-left: 250px;
 }
-
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .industries-button{
+        height:40px;
+        width: 80px;
+        text-align: center;
+        background-color: #f50202;
+        color: white;
+        border-radius:25px ;
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 19px;
+        border-color: #f50202;
+        margin-left: 250px;
+    }
+                 
+        }
 @media screen and (min-width:300px) and (max-width:365px){
     .industries-button{
         height: 30px;

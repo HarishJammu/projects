@@ -21,7 +21,24 @@
     margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: #ffffff;
+        height: auto;
+        width: 22vw;
+        border: 1px solid;
+        border-color: #ffffff;
+        border-radius: 10px;
+        margin-right:28px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+                 
+        }
 @media screen and (min-width:300px) and (max-width:365px) {
     .cards{
         height: auto;
@@ -59,6 +76,13 @@
     height: 50vh;
     width: 22vw;
 }
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .cards-image{
+        height: 50vh;
+        width: 22vw;
+    }
+                 
+        }
 @media screen and (min-width:300px) and (max-width:365px){
     .cards-image{
         height: 340px;
@@ -100,7 +124,18 @@
     padding-top: 15px;
     font-weight: 700;
 }
-
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .it-consultany{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        color: #000000;
+        padding-left:13px;
+        padding-top: 15px;
+        font-weight: 700;
+    }
+                 
+        }
 @media screen and (min-width:300px) and (max-width:365px){
     .it-consultany{
         font-size: 15px;
@@ -140,7 +175,16 @@
     color: #f20101;
     padding-left:13px;
 }
-
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .know-more{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: #f20101;
+        padding-left:13px;
+    }
+                 
+        }
 @media screen and (min-width:300px) and (max-width:365px){
     .know-more{
         font-size: 13px;
@@ -178,6 +222,14 @@
     flex-direction: row;
     justify-content: flex-start;
 }
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .know-more-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+                 
+        }
 @media screen and (min-width:300px) and (max-width:365px){
     .know-more-container{
         display: flex;
@@ -212,7 +264,15 @@
     margin-top: 50px;
     margin-bottom: 30px;
 }
-
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .Know-more-image{
+        height: 60vh;
+        width: 60vw;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+                 
+        }
 @media screen and (min-width:300px) and (max-width:365px){
     .Know-more-image{
         height: 50vh;
@@ -254,6 +314,16 @@
     align-items: flex-end;
     margin-bottom: 30px;
 }
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .know-more-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-bottom: 30px;
+    }
+                 
+        }
 @media screen and (min-width:300px) and (max-width:365px){
     .know-more-button{
         display: flex;
@@ -303,6 +373,21 @@
     border-color: #fe0505;
     margin-left: 50px;
 }
+@media screen and (min-width:1025px) and (max-width:1200px){ 
+    .button-know-more{
+        height: 50px;
+        width: 110px;
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 18px;
+        color: #ffffff;
+        background-color: #f20101;
+        border-radius: 30px;
+        text-align: center;
+        border-color: #fe0505;
+        margin-left: 50px;
+    }
+                 
+        }
 @media screen and (min-width:300px) and (max-width:365px){
     .button-know-more{
         height: 30px;
