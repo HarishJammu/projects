@@ -44,7 +44,7 @@
 }
 @media Screen and (min-width:476px) and (max-width:768px){
     .foot-note{
-        height: 62vh;
+        height: auto;
         width: 100vw;
         padding-left: 15px;
         margin-top:40px;
@@ -92,6 +92,9 @@
 }
 @media Screen and (min-width:366px) and (max-width:475px){
     .AOOC-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
         padding-top:15px;
         padding-bottom: 20px;
         height: 200px;

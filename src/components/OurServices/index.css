@@ -21,7 +21,7 @@
     margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-@media screen and (min-width:1025px) and (max-width:1200px){ 
+@media screen and (min-width:1025px) and (max-width:1440px){ 
     .cards{
         display: flex;
         flex-direction: column;
@@ -76,7 +76,7 @@
     height: 50vh;
     width: 22vw;
 }
-@media screen and (min-width:1025px) and (max-width:1200px){ 
+@media screen and (min-width:1025px) and (max-width:1440px){ 
     .cards-image{
         height: 50vh;
         width: 22vw;
@@ -124,7 +124,7 @@
     padding-top: 15px;
     font-weight: 700;
 }
-@media screen and (min-width:1025px) and (max-width:1200px){ 
+@media screen and (min-width:1025px) and (max-width:1440px){ 
     .it-consultany{
         font-family: 'Rajdhani', sans-serif;
         font-size: 22px;
@@ -175,7 +175,7 @@
     color: #f20101;
     padding-left:13px;
 }
-@media screen and (min-width:1025px) and (max-width:1200px){ 
+@media screen and (min-width:1025px) and (max-width:1440px){ 
     .know-more{
         font-family: 'Rajdhani', sans-serif;
         font-size: 16px;
@@ -222,7 +222,7 @@
     flex-direction: row;
     justify-content: flex-start;
 }
-@media screen and (min-width:1025px) and (max-width:1200px){ 
+@media screen and (min-width:1025px) and (max-width:1440px){ 
     .know-more-container{
         display: flex;
         flex-direction: row;
@@ -264,7 +264,7 @@
     margin-top: 50px;
     margin-bottom: 30px;
 }
-@media screen and (min-width:1025px) and (max-width:1200px){ 
+@media screen and (min-width:1025px) and (max-width:1440px){ 
     .Know-more-image{
         height: 60vh;
         width: 60vw;
@@ -314,7 +314,7 @@
     align-items: flex-end;
     margin-bottom: 30px;
 }
-@media screen and (min-width:1025px) and (max-width:1200px){ 
+@media screen and (min-width:1025px) and (max-width:1440px){ 
     .know-more-button{
         display: flex;
         flex-direction: row;
@@ -373,7 +373,7 @@
     border-color: #fe0505;
     margin-left: 50px;
 }
-@media screen and (min-width:1025px) and (max-width:1200px){ 
+@media screen and (min-width:1025px) and (max-width:1440px){ 
     .button-know-more{
         height: 50px;
         width: 110px;

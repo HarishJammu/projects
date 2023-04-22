@@ -5,10 +5,10 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: #02080e;
-    height: 6vh;
+    height: 4vh;
     width: 100vw;
 }
-@media screen and (min-width:1025px) and (max-width:1200px){ 
+@media screen and (min-width:1025px) and (max-width:1440px){ 
     .social-meadia{
         display: flex;
         flex-direction: row;
@@ -59,7 +59,7 @@
     color: #f20304;
     margin-left:10px;
 }
-@media screen and (min-width:1025px) and (max-width:1200px){ 
+@media screen and (min-width:1025px) and (max-width:1440px){ 
     .Mail-style{
         height: 15px;
         width: 15px;
@@ -108,7 +108,7 @@ font-weight: 400;
 padding-left: 8px;
 padding-top: 8px;
 }
-@media screen and (min-width:1025px) and (max-width:1200px){ 
+@media screen and (min-width:1025px) and (max-width:1440px){ 
     .company-website{  
         font-family: "Noto Sans", sans-serif;
         color: #ffffff;
@@ -150,7 +150,7 @@ padding-top: 8px;
     align-items: center;
   margin-right: 70px;   
 }
-@media screen and (min-width:1025px) and (max-width:1200px){ 
+@media screen and (min-width:1025px) and (max-width:1440px){ 
     .tags-styles{
         display: flex;
         justify-content: center;
@@ -194,7 +194,7 @@ padding-top: 8px;
     margin-top: 5px;
     margin-left: 10px;
  }
- @media screen and (min-width:1025px) and (max-width:1200px){ 
+ @media screen and (min-width:1025px) and (max-width:1440px){ 
     
 .FLS-style{
     height: 22px;
@@ -254,7 +254,7 @@ padding-top: 8px;
     height: 8vh;
     width: 100vw;
 }
-@media screen and (min-width:1025px) and (max-width:1200px){ 
+@media screen and (min-width:1025px) and (max-width:1440px){ 
     .Header-part{
         display: flex;
         flex-direction: row;
@@ -273,11 +273,11 @@ padding-top: 8px;
 }
 @media screen and (min-width:366px) and (max-width:475px) {
     .Header-part{
-        height: 8vh
+        height: 6vh
     }}
 @media screen and (min-width:476px) and (max-width:768px) {
     .Header-part{
-        height: 10vh
+        height: 6vh
     }
 }
 @media screen and (min-width:769px) and (max-width:1024px) {
@@ -291,7 +291,7 @@ padding-top: 8px;
     width: 90px;
     margin-left:20%;
 }
-@media screen and (min-width:1025px) and (max-width:1200px){ 
+@media screen and (min-width:1025px) and (max-width:1440px){ 
     .company-logo{
         height: 50px;
         width: 90px;
@@ -339,7 +339,7 @@ padding-top: 8px;
     margin-left: 350px;
     padding-top:9px;
 }
-@media screen and (min-width:1025px) and (max-width:1200px){ 
+@media screen and (min-width:1025px) and (max-width:1440px){ 
     .ul-style-List-items{
         display:flex;
         flex-direction: row;
@@ -396,7 +396,7 @@ padding-top: 8px;
 .list-types{
     padding-right: 25px;
 }
-@media screen and (min-width:1025px) and (max-width:1200px){ 
+@media screen and (min-width:1025px) and (max-width:1440px){ 
     .list-types{
         padding-right: 25px;
     }
@@ -426,16 +426,16 @@ padding-top: 8px;
 .Page-list-styles{
     font-family: 'Rajdhani', sans-serif;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
     padding-top:8px;
 
 }
-@media screen and (min-width:1025px) and (max-width:1200px){ 
+@media screen and (min-width:1025px) and (max-width:1440px){ 
     .Page-list-styles{
         font-family: 'Rajdhani', sans-serif;
         color: #ffffff;
-        font-size: 18px;
+        font-size: 20px;
         text-decoration: none;
         padding-top:8px;
     
@@ -449,12 +449,12 @@ padding-top: 8px;
 }
 @media screen and (min-width:366px)  and (max-width:475px) {
     .Page-list-styles{
-        font-size: 14px;  
+        font-size: 11px;  
     }
 }
 @media screen and (min-width:476px)  and (max-width:768px) {
     .Page-list-styles{
-        font-size: 18px; 
+        font-size: 16px; 
         padding-right: 15px;
     }
 }
@@ -476,10 +476,11 @@ padding-top: 8px;
     border: 1px solid #ff0303;
     margin-left:200px ;
 }
-@media screen and (min-width:1025px) and (max-width:1200px){ 
+@media screen and (min-width:1025px) and (max-width:1440px){ 
     .header-button{
         height: 35px;
         width: 110px;
+       
         background-color: #ff0303;
         color:white;
         font-size: 15px;
@@ -492,6 +493,7 @@ padding-top: 8px;
 @media screen and (min-width:300px)and (max-width:365px) {
     .header-button{
         height: 35px;
+        display: none;
         width: 110px;
         background-color: #ff0303;
         color:white;
