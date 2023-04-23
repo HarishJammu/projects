@@ -36,7 +36,7 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
 }
 @media screen and (min-width:366px)and (max-width:475px){
     .industrie-us-title-card{
-        height: 35vh;
+        height: 25vh;
         width: 100vw;
         background: rgb(228,228,228);
         background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
@@ -47,7 +47,7 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 55vh;
+        height: 35vh;
         width: 100vw;
         background: rgb(228,228,228);
         background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
@@ -59,7 +59,7 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 45vh;
+        height: 30vh;
         width: 100vw;
         background: rgb(228,228,228);
         background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
@@ -326,13 +326,13 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
 }
 @media screen and (min-width:476px)and (max-width:768px){
     .industries-images{
-        height: 80vh;
+        height: 42vh;
         width: 45vw;
     }
 }
 @media screen and (min-width:769px)and (max-width:1024px){
     .industries-images{
-        height: 50vh;
+        height: 40vh;
         width: 30vw;
     }
 }

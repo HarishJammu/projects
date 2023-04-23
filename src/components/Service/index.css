@@ -495,7 +495,7 @@ body{
 @media screen and (min-width:1025px) and (max-width:1440px){ 
     .-card-title-service{
         font-family: 'Rajdhani', sans-serif;
-        font-size: 12px;
+        font-size: 22px;
         color: #0e1012fb;
         font-weight: bold;
         padding-top: 10px;
