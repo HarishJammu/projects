@@ -13,6 +13,16 @@
     background: rgb(228,228,228);
     background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
 }
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .about-us-title-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 50vh;
+        width: 100svw;
+        background: rgb(228,228,228);
+    }
+}
 @media screen and (min-width:300px) and (max-width:365px){
     .about-us-title-card{
         height:30vh;
@@ -42,6 +52,16 @@
     font-weight: 700;
     padding-left: 20px;
     padding-right: 15px;
+}
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .about-title{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 48px;
+        color: #f80f0f;
+        font-weight: 700;
+        padding-left: 20px;
+        padding-right: 15px;
+    }
 }
 @media screen and (min-width:300px) and (max-width:365px){
     .about-title{
@@ -82,6 +102,15 @@
     color: #030a11d8;
     font-weight: 700;
     padding-left: 20px;
+}
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .about-us-style{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 48px;
+        color: #030a11d8;
+        font-weight: 700;
+        padding-left: 20px;
+    }
 }
 @media screen and (min-width:300px) and (max-width:365px){
     .about-us-style{
@@ -125,6 +154,15 @@
     text-decoration: underline;
     padding-left: 20px;
 }
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .about-sub-title{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 16px;
+        color: hsla(0, 0%, 0%, 0.847);
+        text-decoration: underline;
+        padding-left: 20px;
+    }
+}
 @media screen and (min-width:300px) and (max-width:365px){
     .about-sub-title{
         font-size: 14px;
@@ -164,7 +202,12 @@
     font-size: 20px;
     color: #f50606;
 }
-
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .divison{
+        font-size: 20px;
+        color: #f50606;
+    }
+}
 @media screen and (min-width:300px) and (max-width:365px){
     .divison{
         font-size: 16px;
@@ -196,7 +239,13 @@
     font-size: 16px;
     color: hsla(0, 0%, 0%, 0.847);
 }
-
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .about-sub-title-span{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 16px;
+        color: hsla(0, 0%, 0%, 0.847);
+    }
+}
 @media screen and (min-width:300px) and (max-width:365px){
     .about-sub-title-span{
         font-family: 'Rajdhani', sans-serif;
@@ -235,6 +284,17 @@
     background-color: #ffffff;
     margin-top: 60px;
     flex-wrap: wrap;
+}
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .about-details{
+        display: flex;
+        flex-direction:row;
+        justify-content: flex-start;
+        width:100vw;
+        background-color: #ffffff;
+        margin-top: 60px;
+        flex-wrap: wrap;
+    }
 }
 @media screen and (min-width:300px) and (max-width:365px){
     .about-details{
@@ -277,7 +337,13 @@
     width: 55vw;
     margin-left: 15px;
 }
-
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .about-details-image{
+        height: 55vh;
+        width: 55vw;
+        margin-left: 15px;
+    }
+}
 @media screen and (min-width:300px) and (max-width:365px){
     .about-details-image{
         height: 40vh;
@@ -318,6 +384,19 @@
     padding-left: 10px;
     padding-right: 15px;
 
+}
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .brief-about-us{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 50vh;
+        width: 40vw;
+        padding-top: 50px;
+        padding-left: 10px;
+        padding-right: 15px;
+    
+    }
 }
 @media screen and (min-width:300px) and (max-width:365px){
     .brief-about-us{
@@ -371,7 +450,14 @@
     color: #f20101;
     line-height: 5px;
 }
-
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .second-about-line{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 22px;
+        color: #f20101;
+        line-height: 5px;
+    }
+}
 @media screen and (min-width:300px) and (max-width:365px){
     .second-about-line{
         font-size: 12px;
@@ -415,7 +501,16 @@
     padding-top:10px;
     line-height: 18px;
 }
-
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .second-about-title{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 23px;
+        color: #02080e;
+        font-weight: bold;
+        padding-top:10px;
+        line-height: 18px;
+    }
+}
 @media screen and (min-width:300px) and (max-width:365px){
     .second-about-title{
         font-family: 'Rajdhani', sans-serif;
@@ -465,6 +560,17 @@
     padding-top: 10px;
     text-align: justify;
 }
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .content-creation{
+        font-family: "Noto Sans", sans-serif;
+        font-size: 18px;
+        color: #9E9E9E;
+        line-height: 20px;
+        padding-right: 10px;
+        padding-top: 10px;
+        text-align: justify;
+    }
+}
 @media screen and (min-width:300px) and (max-width:365px){
     .content-creation{
         font-size: 13px;
@@ -508,7 +614,16 @@
     width: 100vw;
     background-color: #a5a3a3;
 }
-
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .about-Want-you-choose{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height:40vh;
+        width: 100vw;
+        background-color: #a5a3a3;
+    }
+}
 @media screen and (min-width:300px) and (max-width:365px){
     .about-Want-you-choose{
         display: flex;
@@ -565,6 +680,15 @@
     padding-top: 25px;
     padding-left: 20px;
 }
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .about-want-you-title{
+        font-family: Sans-serif;
+        font-size: 28px;
+        color: #faf5f5;
+        padding-top: 25px;
+        padding-left: 20px;
+    }
+}
 @media screen and (min-width:300px) and (max-width:365px){
     .about-want-you-title{
         font-family: Sans-serif;
@@ -612,6 +736,20 @@
     font-family: sans-serif;
     font-size: 18px;
     border-color: #f20101;
+}
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .about-button{
+        height: 40px;
+        margin-left: 300px;
+        width: 90px;
+        text-align: center;
+        background-color: #f20101;
+        color: white;
+        border-radius:22px ;
+        font-family: sans-serif;
+        font-size: 18px;
+        border-color: #f20101;
+    }
 }
 @media screen and (min-width:300px) and (max-width:365px){
     .about-button{

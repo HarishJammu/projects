@@ -30,19 +30,23 @@ import "./index.css"
               
 const  ContactUs =()=>{
     const [successMsg,setsuccessMsg]=useState("")
-    const [name,setName]=useState()
-    const [mail,setMail]=useState()
-    const [Message,setMessage]=useState()
+    const [name,setName]=useState("")
+    const [mail,setMail]=useState("")
+    const [Message,setMessage]=useState("")
+    
+
+
 
      const form = useRef();
 
    const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm('service_buehjyl', 'template_j7s28fh', form.current, 'yCbNWrO9l2aCwerJZ')
       .then((result) => {
           console.log(result.text);
-          setsuccessMsg("Send succesfully",)
+          setTimeout(() => {
+            setsuccessMsg("Send succesfully",)
+          }, 4000);
           setMail("")
           setMessage("")
           setName("")
@@ -86,13 +90,16 @@ const  ContactUs =()=>{
 
         <form  ref={form} className="form-background" onSubmit={sendEmail}>
             <label className="label-name">Name</label>
-            <input placeholder="Enter Your Name" value={name} name="name" type="text" className="input-styles"   />
+            <input placeholder="Enter Your Name" value={name} name="name" type="text" className="input-styles"
+            onChange={event => setName(event.target.value,event)} />
             <span className="requireed-contant"><i>Enter your first name here</i></span>
             <label className="label-name">Email Address <span className="required">*</span></label>
-            <input placeholder="Enter Your Email" value={mail} name="user_email" type="email" className="input-styles"/>
+            <input placeholder="Enter Your Email" value={mail} name="user_email" type="email" className="input-styles"
+            onChange={event => setMail(event.target.value)}/>
             <span className="requireed-contant"><i>Example: user@website.com</i></span>
             <label className="label-name">Comments / Questions<span className="required"> *</span></label>
-            <textarea value={Message}  id="w3review" name="message" rows="6" cols="50" className="textarea-style" />
+            <textarea value={Message}  id="w3review" name="message" rows="6" cols="50" className="textarea-style"
+            onChange={event => setMessage(event.target.value)}></textarea>
             <input type="submit" value="Send Message" className="send-button"/>
             <p className="send-message">{successMsg}</p>
         </form> 
