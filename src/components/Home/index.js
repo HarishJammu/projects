@@ -14,7 +14,7 @@ const Home =()=>(
       <Carousel.Item >
         <img
           className="d-block  Carousel-Item"
-          src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1682255230/discussion_opswoz.avif"
+          src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1682475958/welcome_yunzj3.jpg"
           alt="With Us, Your Goals Are Not Far"/>
         <Carousel.Caption className="Carousel-Caption">
         
@@ -28,7 +28,7 @@ const Home =()=>(
       <Carousel.Item>
         <img
           className="d-block  Carousel-Item"
-          src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1682255230/welcome_qys7t6.avif"
+          src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1682475817/projects_explain_ryg7zz.jpg"
           alt="Second slide"/>
         <Carousel.Caption className="Carousel-Caption">
           <h3 className="Carousel-image-title">You've Come To The Right Place</h3>
