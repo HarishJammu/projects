@@ -46,7 +46,10 @@ const Header=()=>{
                      <li className="list-types">
                         <Link to="/contact"  className="Page-list-styles">Contact Us</Link>
                         </li>
-                     <button className="header-button" ><Link to="/service" className="button-link-style">Get Start</Link></button>
+                        <div class="buttons">
+                           <button class="btn"><span></span><Link to="/service" className="button-link-style"><p data-start="good luck!" data-text="Get Start!" data-title="Get Start!"></p></Link></button>
+                        </div>
+                     {/*<button className="header-button" ><Link to="/service" className="button-link-style">Get Start</Link></button>*/}
                      </ul>
                   </div>
 </>
