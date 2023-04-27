@@ -61,7 +61,7 @@ to offer them exceptionally detailed industry knowledge and a global network.</s
             <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1681478727/imgi4_dpuo0e.jpg" 
             alt="IT-Consultancy" className="industries-images"/>
             <div className="industries-it-consultancy-style-1">
-                <div className="vit-consultancy-style-2">
+                <div className="industries-it-consultancy-style-2">
                 <span className="industries-card-title">Finance & Banking</span>
                 <span className="industries-card-description">
 With our banking consultancy services, We help finance 

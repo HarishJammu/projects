@@ -2,7 +2,11 @@
 import Footer from "../Footer";
 import "./index.css";
 const Service=()=>{
-
+/* <span className="service-card-description">
+                    We provide world-class Application Development services by constantly
+                    exploring and implementing innovative solutions 
+                    that drive long-term value to our clients. 
+                    </span>*/
 return(
 
     <div className="about-container">
@@ -23,10 +27,11 @@ return(
             <div className="service-it-consultancy-style-1">
                 <div className="service-it-consultancy-style-2">
                 <span className="-card-title-service">IT Consultancy</span>
-                <span className="service-card-description">Our IT consulting services offer advisory 
-                services that help clients assess different technology strategies and align their 
-                technology strategies with their business. Our services support customers’ IT initiatives 
-                by providing strategic, architectural, operational and implementation planning.</span>
+                <span className="service-card-description">Our IT consultancy is a professional service that provides expert 
+                advice and support to organizations in utilizing information technology to achieve their business goals 
+                and objectives. Our IT consultants work with clients 
+                to identify their technology needs, develop strategies, 
+                implement solutions, and provide ongoing support and maintenance.</span>
                 </div>
             </div>
             </div>
@@ -37,9 +42,13 @@ return(
                 <div className="service-it-consultancy-style-2">
                 <span className="-card-title-service">Application Development</span>
                 <span className="service-card-description">
-                    We provide world-class Application Development services by constantly
-                    exploring and implementing innovative solutions 
-                    that drive long-term value to our clients. </span>
+                Our IT consultants use their technical expertise to design and develop software applications 
+                that meet the specific needs of the client's business.Our IT consultants work with clients to identify their business 
+                requirements and translate them into functional specifications.
+                    </span>
+                    
+
+
                 </div>
             </div>
             </div>

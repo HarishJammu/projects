@@ -47,9 +47,9 @@ const Header=()=>{
                         <Link to="/contact"  className="Page-list-styles">Contact Us</Link>
                         </li>
                         <div class="buttons">
-                           <button class="btn"><span></span><Link to="/service" className="button-link-style"><p data-start="good luck!" data-text="Get Start!" data-title="Get Start!"></p></Link></button>
+                        <button className="header-button"><Link className="button-link-style" to="/service">Get start</Link></button>
                         </div>
-                     {/*<button className="header-button" ><Link to="/service" className="button-link-style">Get Start</Link></button>*/}
+                     {/**/}
                      </ul>
                   </div>
 </>

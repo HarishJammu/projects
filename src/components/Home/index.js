@@ -4,7 +4,9 @@ import OurServices from "../OurServices"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
 import "./index.css"
-
+/*    <p className="Carousel-image-para">With Us, Your Goals Are Not Far</p>
+      <button className="carousel-more-button-know">
+        <Link to="/service" className="button-home-Page-list-styles">Service</Link></button>*/
 const Home =()=>(
 	<div className="background-color">
 		<div className="Home-container">
@@ -12,19 +14,21 @@ const Home =()=>(
       <Carousel.Item >
         <img
           className="d-block  Carousel-Item"
-          src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1681729256/Asoftsole21_copy_avatcj.jpg"
+          src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1682475958/welcome_yunzj3.jpg"
           alt="With Us, Your Goals Are Not Far"/>
         <Carousel.Caption className="Carousel-Caption">
+        
           <h3 className="Carousel-image-title">With Us, Your Goals Are Not Far</h3>
           <p className="Carousel-image-para">Group of Experts who are specialized in Business 
-			Consultancy and can help you assist the right solutions for your company growth.</p>
-      <button className="carousel-more-button-know"><Link to="/service" className="button-home-Page-list-styles">Service</Link></button>
+			Consultancy and can help you assist the right solutions for your company growt</p>
+      <button className="carousel-more-button-know">
+        <Link to="/service" className="button-home-Page-list-styles">Service</Link></button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block  Carousel-Item"
-          src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1681729616/Asoftsol_1_copy_szhv1d.jpg"
+          src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1682475817/projects_explain_ryg7zz.jpg"
           alt="Second slide"/>
         <Carousel.Caption className="Carousel-Caption">
           <h3 className="Carousel-image-title">You've Come To The Right Place</h3>
