@@ -1,7 +1,15 @@
+import { Navigate } from "react-router-dom";
+import { useState } from "react";
 import Footer from "../Footer";
 import "./index.css";
 
-const IndustriesExpo=()=>(
+
+const IndustriesExpo=()=>{
+    const [gotoContact,setGotoContact]=useState(false)
+    if (gotoContact){
+        return <Navigate to="/contact"/>
+    }
+    return(
     <div className="about-container">
     <div className="industrie-us-title-card">
         <h1 className="Industries-style">Industries</h1>
@@ -14,7 +22,7 @@ const IndustriesExpo=()=>(
         </div>
         <div className="our-services-details">
             <div className="industries-card-details">
-            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1681478727/img-i1_dranln.jpg" 
+            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683263631/doctor-nurses-special-equipment_gud2p5.jpg" 
             alt="IT-Consultancy" className="industries-images"/>
             <div className="industries-it-consultancy-style-1">
                 <div className="industries-it-consultancy-style-2">
@@ -27,7 +35,7 @@ implementation, or launch a profitable medical software product or IT initiative
             </div>
             </div>
             <div className="industries-card-details">
-            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1681478727/imgi2_l5bi5y.jpg" 
+            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683096765/html-css-collage-concept-with-person_dfapw9.jpg" 
             alt="IT-Consultancy" className="industries-images"/>
             <div className="industries-it-consultancy-style-1">
                 <div className="industries-it-consultancy-style-2">
@@ -43,7 +51,7 @@ strategic technology roadmap with priorities that are closely linked to IT goals
             </div>
             </div>
             <div className="industries-card-details">
-            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1681478727/imgi3_hvrr0f.jpg" 
+            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683264053/bulb-solar-panel-eolic-fan_1_a0maaa.jpg" 
             alt="IT-Consultancy" className="industries-images"/>
             <div className="industries-it-consultancy-style-1">
                 <div className="industries-it-consultancy-style-2">
@@ -58,7 +66,7 @@ to offer them exceptionally detailed industry knowledge and a global network.</s
             </div>
             </div>
             <div className="industries-card-details">
-            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1681478727/imgi4_dpuo0e.jpg" 
+            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683263630/2825786_20546_d8hk4a.jpg" 
             alt="IT-Consultancy" className="industries-images"/>
             <div className="industries-it-consultancy-style-1">
                 <div className="industries-it-consultancy-style-2">
@@ -71,7 +79,7 @@ and become better at change.</span>
             </div>
             </div>
             <div className="industries-card-details">
-            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1681478727/imgi5_fbbglg.jpg" 
+            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683263631/environmental-pollution-factory-exterior_mitblb.jpg" 
             alt="IT-Consultancy" className="industries-images"/>
             <div className="industries-it-consultancy-style-1">
                 <div className="industries-it-consultancy-style-2">
@@ -86,7 +94,7 @@ IT aspects—from exploration and production to retail networks and related serv
             </div>
             </div>
             <div className="industries-card-details">
-            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1681478786/imgi6_jpjyqu.jpg" 
+            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683264568/businessmen-hands-white-table-with-documents-drafts_etmwlm.jpg" 
             alt="IT-Consultancy" className="industries-images"/>
             <div className="industries-it-consultancy-style-1">
                 <div className="industries-it-consultancy-style-2">
@@ -102,10 +110,10 @@ Are you looking to implement your engineering industry with a big innovation.
         <div className="industries-Want-you-choose">
             <div className="industries-sec-container">
                 <h1 className="industries-want-you-title">Want To Choose Our Consultancy Services ?</h1>
-                <button  className="industries-button">Start</button>
+                <button className="industrial-want-crack industrial-btn" onClick={()=>{setGotoContact(true)}} ><span className="industrial-anchore">Start</span></button>
                 </div>
             </div>   
         <Footer/>
 </div>
-)
+)}
 export default IndustriesExpo;

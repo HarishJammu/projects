@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
-.about-container{
+.contact-container{
     background-color: #ffffff;
-    height: auto;
+    height: 100vh;
     width: 100vw;
 }
 
@@ -38,7 +38,7 @@
 }
 @media screen and (min-width:476px) and (max-width:768px){
     .contact-us-title-card{
-        height:50vh;
+        height:40vh;
     }
 }
 @media screen and (min-width:769px) and (max-width:1024px){
@@ -49,7 +49,7 @@
 
 
 .Contact-title{
-    font-family: 'Rajdhani', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     font-size: 48px;
     color: #f80f0f;
     font-weight: 700;
@@ -58,7 +58,7 @@
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .Contact-title{
-        font-family: 'Rajdhani', sans-serif;
+        font-family: "Noto Sans", sans-serif;
         font-size: 48px;
         color: #f80f0f;
         font-weight: 700;
@@ -68,7 +68,7 @@
 }
 @media screen and (min-width:300px) and (max-width:365px){
     .Contact-title{
-        font-size: 27px;
+        font-size: 25px;
         font-weight: 700;
         padding-left: 20px;
         padding-right: 15px;
@@ -100,7 +100,7 @@
 }
 
 .contact-style{
-    font-family: 'Rajdhani', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     font-size: 48px;
     color: #030a11d8;
     font-weight: 700;
@@ -108,7 +108,7 @@
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .contact-style{
-        font-family: 'Rajdhani', sans-serif;
+        
         font-size: 48px;
         color: #030a11d8;
         font-weight: 700;
@@ -134,7 +134,6 @@
 }
 @media screen and (min-width:476px) and (max-width:768px){
     .contact-style{
-        font-family: 'Rajdhani', sans-serif;
         font-size: 45px;
         color: #030a11d8;
         font-weight: 700;
@@ -143,7 +142,6 @@
 }
 @media screen and (min-width:769px) and (max-width:1024px){
     .contact-style{
-        font-family: 'Rajdhani', sans-serif;
         font-size: 55px;
         color: #030a11d8;
         font-weight: 700;
@@ -157,7 +155,7 @@
     justify-content: flex-start;
     align-items: center;
     background-color: #ffffff;
-    height: 200px;
+    height: auto;
     width: 100vw;
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
@@ -178,7 +176,7 @@
         justify-content: flex-start;
         align-items: center;
         background-color: #ffffff;
-        height: 60vh;
+        height: auto;
         width: 100vw;
     }
 }
@@ -241,6 +239,7 @@
         height: 30vh;
         width: 100vw;
         padding-left: 15px;
+        margin-top: 15px;
     }
 }
 @media screen and (min-width:366px) and (max-width:475px){
@@ -288,7 +287,7 @@
         width: 18px;
         height: 18px;
         color: rgb(244, 15, 15);
-        margin-top: 20px;
+       
     }
 }
 @media screen and (min-width:366px) and (max-width:475px){
@@ -309,10 +308,9 @@
 }
 @media screen and (min-width:769px) and (max-width:1024px){
     .contact-location-logo{
-        width:33px;
-        height: 35px;
+        width:40px;
+        height: 40px;
         color: rgb(244, 15, 15);
-        margin-top: 10px;
     }
 }
 .location-title{
@@ -362,7 +360,7 @@
 @media screen and (min-width:769px) and (max-width:1024px){
     .location-title{
         font-family: 'Rajdhani', sans-serif;
-        font-size: 25px;
+        font-size: 28px;
         color: black;
         padding-bottom: 20px;
         padding-top: 20px;
@@ -410,7 +408,7 @@
 @media screen and (min-width:769px) and (max-width:1024px){
     .location-details{
         font-family: 'Rajdhani', sans-serif;
-        font-size: 18px;
+        font-size: 19px;
         color: rgb(146, 144, 144);
         line-height: 15px;
         text-align: center;
@@ -432,9 +430,9 @@
 
 @media screen and (min-width:300px) and (max-width:365px){
     .v1{
-        border-right: 1px solid rgb(146, 144, 144);
+        border-right: 1px solid hsl(0, 1%, 57%);
         height: 0vh;
-        margin-left:40px ;
+        margin-left:40px;
     }
 }
 @media screen and (min-width:366px) and (max-width:475px){
@@ -454,7 +452,7 @@
 @media screen and (min-width:769px) and (max-width:1024px){
     .v1{
         border-right: 1px solid rgb(146, 144, 144);
-        height: 30vh;
+        height: 25vh;
         margin-left:20px ;
     }
 }
@@ -580,7 +578,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        padding-top: 80px;
+        padding-top: 20px;
         padding-left: 25px;
     }
 }
@@ -610,7 +608,7 @@
         justify-content: flex-end;
         padding-top: 40px;
         padding-right: 80px;
-        margin-left:80px;
+        margin-left:50px;
     }
 }
 
@@ -621,22 +619,24 @@
 .Have-a-quation-2{
     display: flex;
     flex-direction: column;
-    height: 700px;
-    width:500px;
+    height: auto;
+    width:40vw;
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .Have-a-quation-2{
         display: flex;
         flex-direction: column;
-        height: 700px;
-        width:500px;
+        height: auto;
+        width:50vw;
     }
 }
 @media screen and (min-width:300px) and (max-width:365px){
     .Have-a-quation-2{
         display: flex;
         flex-direction: column;
-        padding-left: 40px;
+        padding-left: 20px;
+        height: auto;
+        width:80vw;
 
     }
 }
@@ -645,12 +645,16 @@
         display: flex;
         flex-direction: column;
         padding-left: 40px;
+        height: auto;
+        width:90vw;
     }
 }
 @media screen and (min-width:476px) and (max-width:768px){
     .Have-a-quation-2{
         display: flex;
         flex-direction: column;
+        height: auto;
+        width:60vw;
 
     }
 }
@@ -658,6 +662,8 @@
     .Have-a-quation-2{
         display: flex;
         flex-direction: column;
+        height: auto;
+        width:60vw;
     }
 }
 
@@ -812,7 +818,7 @@
     pointer-events: 1px solid #ffffff;
     }
     
-    @media screen and (min-width:1025px) and (max-width:1440px){
+@media screen and (min-width:1025px) and (max-width:1440px){
         .input-styles{
             height: 50px;
             width: 450px;
@@ -829,11 +835,10 @@
 @media screen and (min-width:300px) and (max-width:365px){
     .input-styles{
         height: 35px;
-        width: 240px;
+        width: 230px;
         background-color: #f5f5f5;
         margin-bottom: 5px;
         border: 1px solid #f5f5f5;
-        padding-left: 10px;
         margin-top: 10px;
         font-size: 12px;
     }
@@ -841,12 +846,13 @@
 @media screen and (min-width:366px) and (max-width:475px){
     .input-styles{
         height: 40px;
-        width: 300px;
+        width: 270px;
         background-color: #f5f5f5;
         margin-bottom: 5px;
         border: 1px solid #f5f5f5;
         padding-left: 10px;
         font-size: 13px;
+        margin-right: 15px;
         
     }
 }
@@ -864,14 +870,14 @@
 }
 @media screen and (min-width:769px) and (max-width:1024px){
     .input-styles{
-        height: 43px;
-        width: 450px;
+        height: 55px;
+        width: 520px;
         background-color: #f5f5f5;
         margin-bottom: 5px;
         border: 1px solid #f5f5f5;
-        padding-left: 10px;
+        padding-left: 15px;
         margin-top: 10px;
-        font-size: 13px;
+        font-size: 18px;
     }
 }
 .label-name{
@@ -917,7 +923,7 @@
 @media screen and (min-width:769px) and (max-width:1024px){
     .label-name{
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 21px;
+        font-size: 25px;
         color: #000000;
         padding-top: 20px;
     }
@@ -929,7 +935,6 @@
     background-color: #f5f5f5;
     border: 1px solid #f5f5f5;
     margin-bottom: 10px;
-    margin-bottom: 15px;
     padding: 10px;
     font-size: 12px;
 }
@@ -949,22 +954,23 @@
 @media screen and (min-width:300px) and (max-width:365px){
     .textarea-style{
         height: 80px;
-        width: 240px;
+        width: 230px;
         background-color: #f5f5f5;
         border: 1px solid #f5f5f5;
         margin-top: 10px;
         margin-bottom: 15px;
         padding-left: 7px;
+        margin-right: 15px;
     }
 }
 @media screen and (min-width:366px) and (max-width:475px){
     .textarea-style{
         height: 80px;
-        width: 450px;
+        width: 270px;
         background-color: #f5f5f5;
         border: 1px solid #f5f5f5;
         margin-bottom: 10px;
-        margin-bottom: 15px;
+        margin-right: 15px;
         padding-left: 7px;
     }
 }
@@ -983,7 +989,7 @@
 @media screen and (min-width:769px) and (max-width:1024px){
     .textarea-style{
         height: 25vh;
-        width: 450px;
+        width: 520px;
         background-color: #f5f5f5;
         border: 1px solid #f5f5f5;
         margin-bottom: 10px;
@@ -1034,48 +1040,48 @@
 @media screen and (min-width:769px) and (max-width:1024px){
     .requireed-contant{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 16px;
+        font-size: 18px;
         color: #aca9a9;
     }
 }
 .send-button{
     height: 45px;
     width: 120px;
-    background-color: #fd0000;
+    background-color: #f39c12;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 13px;
     border-radius: 30px;
-    border-color:#fd0000 ;
+    border:none ;
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .send-button{
         height: 45px;
-        width: 120px;
-        background-color: #fd0000;
+        width: 140px;
+        background-color: #f39c12;
         color: white;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-align: center;
-        font-size: 13px;
+        font-size: 15px;
         border-radius: 30px;
-        border-color:#fd0000 ;
+        border:none ;
     }  
 }
 @media screen and (min-width:300px) and (max-width:365px){
     .send-button{
-        height: 35px;
-        width: 110px;
-        font-size: 12px;
+        height: 32px;
+        width: 100px;
+        font-size: 11px;
         border-radius: 30px;
-        border-color:#fd0000 ;
+        border:#f39c12 ;
     }
 }
 @media screen and (min-width:366px) and (max-width:475px){
     .send-button{
-        height: 40px;
-        width: 120px;
-        font-size: 13px;
+        height: 32px;
+        width: 100px;
+        font-size: 11px;
         border-radius: 30px;
     }
 }
@@ -1096,6 +1102,11 @@
     }
 }
 
+.send-button:hover {
+    background: #fff;
+    box-shadow: 0px 2px 20px 10px #97B1BF;
+    color: #000;
+}
 .ending-style{
 
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 100%);
@@ -1105,7 +1116,8 @@
 .send-message{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color:green;
+    font-weight: 700;
+    color:rgb(0, 128, 0);
     padding-top: 10px;
 }
 

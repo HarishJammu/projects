@@ -2,10 +2,8 @@ import { Link } from "react-router-dom";
 import { FaFacebookF,FaLinkedinIn,FaSkype,} from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
 import "./index.css"
-// 
+
 const Header=()=>{
-   
-   
    return(
 <>
    <div className="social-meadia">     
@@ -47,9 +45,9 @@ const Header=()=>{
                         <Link to="/contact"  className="Page-list-styles">Contact Us</Link>
                         </li>
                         <div class="buttons">
-                        <button className="header-button"><Link className="button-link-style" to="/service">Get start</Link></button>
+                        <button className="btn-head-button"><Link className="button-link-style" to="/service">Get start</Link>
+                           </button>
                         </div>
-                     {/**/}
                      </ul>
                   </div>
 </>

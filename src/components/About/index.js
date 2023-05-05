@@ -17,7 +17,7 @@ const About=()=>{
             <span><span className="about-sub-title">Home</span><span className="divison">/</span><span className="about-sub-title-span">about us</span></span>
         </div> 
         <div className="about-details"> 
-        <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1681462242/about-details_bagdo9.jpg" 
+        <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683265771/aerial-view-business-team_1_fbzcvh.jpg" 
         alt="about-us" className="about-details-image"/>
         <div className="brief-about-us">
             <p className="second-about-line">About Us</p>
@@ -34,7 +34,8 @@ const About=()=>{
         <div className="about-Want-you-choose">
             <div className="about-sec-container">
                 <h1 className="about-want-you-title">Want To Choose Our Consultancy Services ?</h1>
-                <button  className="about-button" onClick={()=>{setGotoContact(true)}}>Start</button>
+                {/*<button  className="about-button" onClick={()=>{setGotoContact(true)}}>Start</button>*/}
+                <button className="about-want-crack about-btn" onClick={()=>{setGotoContact(true)}} ><span className="about-anchore">Start</span></button>
                 </div>
             </div>   
     </div>

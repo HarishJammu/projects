@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom"
+import {redirect} from "react-router-dom"
 import Footer from "../Footer"
 import OurServices from "../OurServices"
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -7,8 +7,14 @@ import "./index.css"
 /*    <p className="Carousel-image-para">With Us, Your Goals Are Not Far</p>
       <button className="carousel-more-button-know">
         <Link to="/service" className="button-home-Page-list-styles">Service</Link></button>*/
-const Home =()=>(
+const Home =()=>{
+  //const naviagte=useNavigate()
+  const changeLocation=()=>{
+    redirect("/service")
+  }
+  return(
 	<div className="background-color">
+    
 		<div className="Home-container">
 		<Carousel fade>
       <Carousel.Item >
@@ -21,20 +27,25 @@ const Home =()=>(
           <h3 className="Carousel-image-title">With Us, Your Goals Are Not Far</h3>
           <p className="Carousel-image-para">Group of Experts who are specialized in Business 
 			Consultancy and can help you assist the right solutions for your company growt</p>
-      <button className="carousel-more-button-know">
-        <Link to="/service" className="button-home-Page-list-styles">Service</Link></button>
+      
+      {/*<button className="carousel-more-button-know">
+        <Link to="/service" className="button-home-Page-list-styles">Service</Link></button>*/}
+       <button className="button-carousel" onClick={changeLocation}>Service</button>
+        {/*<button class='glowing-btn'><Link to="/service" className="button-home-Page-list-styles"><span class='glowing-txt'>SE<span class='faulty-letter'>RVI</span>CE</span></Link></button>*/}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block  Carousel-Item"
-          src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1682475817/projects_explain_ryg7zz.jpg"
+          src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1682747808/pexels-edmond-dant%C3%A8s-4344860_h2ihfp.jpg"
           alt="Second slide"/>
         <Carousel.Caption className="Carousel-Caption">
-          <h3 className="Carousel-image-title">You've Come To The Right Place</h3>
+          <h3 className="Carousel-image-title" >You've Come To The Right Place</h3>
           <p className="Carousel-image-para">Professionals And Experienced In IT & Business Consultancy.</p>
-          <button className="carousel-more-button-know">
-            <Link to="/service" className="button-home-Page-list-styles">Service</Link></button>
+          {/*<button className="carousel-more-button-know">
+            <Link to="/service" className="button-home-Page-list-styles">Service</Link></button>*/}
+           <button className="button-carousel" onClick={changeLocation}>Service</button>
+            {/*<button class='glowing-btn'><Link to="/service" className="button-home-Page-list-styles"><span class='glowing-txt'>SE<span class='faulty-letter'>RVI</span>CE</span></Link></button>*/}
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
@@ -49,5 +60,5 @@ const Home =()=>(
      <Footer/>
 	</div>
 	
-)
+)}
 export default Home;

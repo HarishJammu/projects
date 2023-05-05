@@ -29,11 +29,12 @@
         justify-content: flex-start;
         background-color: #ffffff;
         height: auto;
-        width: 22vw;
+        width: 20vw;
         border: 1px solid;
         border-color: #ffffff;
         border-radius: 10px;
         margin-right:23px;
+        margin-left: 26px;
         margin-bottom: 20px;
         margin-top: 20px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -79,8 +80,8 @@
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .cards-image{
-        height: 50vh;
-        width: 22vw;
+        height: 45vh;
+        width: 20vw;
     }
     
 }
@@ -268,18 +269,17 @@
 @media screen and (min-width:1025px) and (max-width:1440px){
     .Know-more-image{
         height: 60vh;
-        width: 60vw;
+        width: 55vw;
         margin-top: 50px;
         margin-bottom: 30px;
     }
 }
 @media screen and (min-width:300px) and (max-width:365px){
     .Know-more-image{
-        height: 50vh;
-        width: 85vw;
+        height: 60vh;
+        width: 80vw;
         margin-top: 30px;
         margin-bottom: 30px;
-        margin-right: 10px;
     }
 }
 @media screen and (min-width:366px) and (max-width:475px){
@@ -360,64 +360,64 @@
     }
 } 
 
-.button-know-more{
-    height: 50px;
-    width: 110px;
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 18px;
-    color: #ffffff;
-    background-color: #f20101;
-    border-radius: 30px;
+.btn-our-service-button {
+    background: #f39c12;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    height: 2.5rem;
+    width: 10rem;
     text-align: center;
-    border-color: #fe0505;
-    margin-left: 50px;
+    margin-left: 5rem;
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
-    .button-know-more{
-        height: 50px;
-        width: 110px;
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 18px;
-        color: #ffffff;
-        background-color: #f20101;
-        border-radius: 30px;
-        text-align: center;
-        border-color: #fe0505;
+    .btn-our-service-button{
+        font-size: 1.1rem;
+        font-weight: 400;
+        height: 2.5rem;
+        width: 8rem;
         margin-left: 50px;
     }
 }
 
 @media screen and (min-width:300px) and (max-width:365px){
-    .button-know-more{
-        height: 30px;
-        width: 80px;
-        font-size: 12px;
-        border-radius: 15px;
+    .btn-our-service-button{
+        height: 2.3rem;
+        width: 7rem;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-left: 0rem;
     }
  
 }
 @media screen and (min-width:366px) and (max-width:475px){
-    .button-know-more{
-        height: 35px;
-        width: 90px;
-        font-size: 14px;
-        border-radius: 20px;
+    .btn-our-service-button{
+        font-size: 1.2rem;
+        font-weight: 400;
+        height: 2.5rem;
+        width: 10rem;
+        margin-left: 0rem;
     }
 }
 @media screen and (min-width:476px) and (max-width:768px){
-    .button-know-more{
-        height: 40px;
-        width: 110px;
-        font-size: 15px;
-        border-radius: 25px;
+    .btn-our-service-button{
+        font-size: 1rem;
+        font-weight: 400;
+        height: 2.5rem;
+        width: 7.8rem;
+        margin-left: 1rem;
     }
 }
 @media screen and (min-width:769px) and (max-width:1024px){
-    .button-know-more{
-        height: 50px;
-        width: 120px;
-        font-size: 17px;
-        border-radius: 18px;
+    .btn-our-service-button{
+        font-size: 1.2rem;
+        font-weight: 400;
+        height: 2.5rem;
+        width: 10rem;
     }
 } 
 .our-services-home-Page-list-styles{
@@ -425,4 +425,8 @@
     text-decoration: none;
 }
 
-
+.btn-our-service-button:hover {
+    background: #fff;
+    box-shadow: 0px 2px 20px 10px #97B1BF;
+    color: #000;
+}

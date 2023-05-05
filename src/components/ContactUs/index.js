@@ -29,13 +29,20 @@ import "./index.css"
 
               
 const  ContactUs =()=>{
-    const [successMsg,setsuccessMsg]=useState("")
+    const [successMsg,setsuccessMsg]=useState(false)
     const [name,setName]=useState("")
     const [mail,setMail]=useState("")
     const [Message,setMessage]=useState("")
     
 
 
+    const handleButtonClick = () => {
+        setsuccessMsg(true);
+
+      setTimeout(() => {
+        setsuccessMsg(false);
+        }, 3000);
+    }
 
      const form = useRef();
 
@@ -44,9 +51,7 @@ const  ContactUs =()=>{
     emailjs.sendForm('service_buehjyl', 'template_j7s28fh', form.current, 'yCbNWrO9l2aCwerJZ')
       .then((result) => {
           console.log(result.text);
-          setTimeout(() => {
-            setsuccessMsg("Send succesfully",)
-          }, 4000);
+          
           setMail("")
           setMessage("")
           setName("")
@@ -56,7 +61,7 @@ const  ContactUs =()=>{
   };
         
     return(
-    <div className="about-container">
+    <div className="contact-container">
      <div className="contact-us-title-card">
         <h4 className="Contact-title">Contact <span className="contact-style">Us</span></h4>
     </div>
@@ -100,16 +105,10 @@ const  ContactUs =()=>{
             <label className="label-name">Comments / Questions<span className="required"> *</span></label>
             <textarea value={Message}  id="w3review" name="message" rows="6" cols="50" className="textarea-style"
             onChange={event => setMessage(event.target.value)}></textarea>
-            <input type="submit" value="Send Message" className="send-button"/>
-            <p className="send-message">{successMsg}</p>
+            <button type="submit" value="Send Message" className="send-button" onClick={handleButtonClick}>Send Message</button>
+            
+                        <p className="send-message">{successMsg ?"Send SuccesFully":""}</p>
         </form> 
-
-
-      
-
-
-
-        
         </div>
         </div>
     </div>

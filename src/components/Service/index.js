@@ -22,37 +22,36 @@ return(
         </div>
         <div className="our-services-details">
             <div className="service-card-details">
-            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1681291855/card_1_jqugrr.jpg" 
+            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683096765/html-css-collage-concept-with-person_dfapw9.jpg" 
             alt="IT-Consultancy" className="services-card-images"/>
             <div className="service-it-consultancy-style-1">
                 <div className="service-it-consultancy-style-2">
                 <span className="-card-title-service">IT Consultancy</span>
-                <span className="service-card-description">Our IT consultancy is a professional service that provides expert 
-                advice and support to organizations in utilizing information technology to achieve their business goals 
-                and objectives. Our IT consultants work with clients 
-                to identify their technology needs, develop strategies, 
-                implement solutions, and provide ongoing support and maintenance.</span>
+                <span className="service-card-description">Our strategic IT consulting will help you 
+                automate and digitalise operations, optimise the software portfolio, and implement the latest 
+                technologies. We offer IT consulting services that will help you improve your software architecture, 
+                create a tech-driven digital strategy, and improve operations by optimising your software portfolio. </span>
                 </div>
             </div>
             </div>
             <div className="service-card-details">
-            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1681291855/card_2_derdfe.jpg" 
+            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683095708/representations-user-experience-interface-design_mwhv1g.jpg" 
             alt="IT-Consultancy" className="services-card-images"/>
             <div className="service-it-consultancy-style-1">
                 <div className="service-it-consultancy-style-2">
                 <span className="-card-title-service">Application Development</span>
                 <span className="service-card-description">
-                Our IT consultants use their technical expertise to design and develop software applications 
-                that meet the specific needs of the client's business.Our IT consultants work with clients to identify their business 
-                requirements and translate them into functional specifications.
+            Your business is made smarter with our emerging technology development 
+            services. Whatever the latest technology, Asoftsol is here to provide dedicated 
+            services in that domain. Our custom application development services include both 
+            native and hybrid apps. Use the trending tech for an added advantage over the competitive market. 
+            We have expertise in web app development using the latest web technologies.
                     </span>
-                    
-
 
                 </div>
             </div>
             </div>
-            <div className="service-card-details">
+            {/*<div className="service-card-details">
             <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1681291855/card_4_bqwbpm.jpg" 
             alt="IT-Consultancy" className="services-card-images"/>
             <div className="service-it-consultancy-style-1">
@@ -65,22 +64,26 @@ return(
             that meet specifications/requirements.</span>
                 </div>
             </div>
-            </div>
+            </div>*/}
             <div className="service-card-details">
-            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1681476088/img1_jyaqgs.jpg" 
+            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683262354/map-lying-wooden-table_1_t9okdu.jpg" 
             alt="IT-Consultancy" className="services-card-images"/>
             <div className="service-it-consultancy-style-1">
                 <div className="service-it-consultancy-style-2">
                 <span className="-card-title-service">Content Management</span>
                 <span className="service-card-description">
-                        We provide you an Best CMS suitable for your business needs that is used to manage content, 
-                        allowing multiple contributors to create, edit and publish. Also our easy-to-use CMS allows non-technical 
-                        people also to easily create and manage their own web content. </span>
+                Asofsol CCMS is a component content management solution designed to 
+                streamline your technical communication process. As an enterprise-class, 
+                our solution can be tailored to meet your needs. We offer dedicated 
+                and on-premise deployment options to manage content, allowing multiple 
+                contributors to create, edit and publish. Also our easy-to-use CMS allows 
+                non-technical people also to easily create and manage their own web content.
+</span>
                 </div>
             </div>
             </div>
-            <div className="service-card-details">
-            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1681476088/img2_lf54iq.jpg" 
+            {/*/<div className="service-card-details">
+            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1682756235/representations-user-experience-interface-design_ftacaw.jpg" 
             alt="IT-Consultancy" className="services-card-images"/>
             <div className="service-it-consultancy-style-1">
                 <div className="service-it-consultancy-style-2">
@@ -93,9 +96,9 @@ return(
         that your application is built for success with the end user in focus.</span>
                 </div>
             </div>
-            </div>
-            <div className="service-card-details">
-            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1681476088/img3_seebls.jpg" 
+            </div>*/}
+            {/*<div className="service-card-details">
+            <img src="https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040430.jpg?w=360&t=st=1682756120~exp=1682756720~hmac=96b86e2767f4a84fd1fbc1a5c62157715181c138a88c5d7f0eb5b14855d809f4" 
             alt="IT-Consultancy" className="services-card-images"/>
             <div className="service-it-consultancy-style-1">
                 <div className="service-it-consultancy-style-2">
@@ -107,46 +110,51 @@ return(
             our well designed websites have a significant role to play. </span>
                 </div>
             </div>
-            </div>
+            </div>*/}
             <div className="service-card-details">
-            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1681476088/img4_p1yga6.jpg" 
+            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683095693/business-startup-strategy-goals-concept_cjehan.jpg" 
             alt="IT-Consultancy" className="services-card-images"/>
             <div className="service-it-consultancy-style-1">
                 <div className="service-it-consultancy-style-2">
                 <span className="-card-title-service">Business Coaching Services</span>
                 <span className="service-card-description">
-                    We help transform your business dream into reality. As A 
-                    Business Development Coach, we help all Business-Minded People 
-                    to develop their
-                    skills and thought processes towards a bright future.</span>
+                Asoftsol helps you transform your business dream into reality. 
+                As A Business Development Coach, an experience that develops trust 
+                and sustainable team. We enable behaviors that create a collaborative, 
+                aligned, and productive environment which in-turn will help the Businesss 
+                Leaders to improve their skills and thought processes towards a bright future.
+                </span>
                 </div>
             </div>
             </div>
-            <div className="service-card-details">
-            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1681476088/img5_inj59y.jpg" 
+          <div className="service-card-details">
+            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683096991/customer-relationship-management-concept_wupiuo.jpg" 
             alt="IT-Consultancy" className="services-card-images"/>
             <div className="service-it-consultancy-style-1">
                 <div className="service-it-consultancy-style-2">
                 <span className="-card-title-service">Integration Services</span>
                 <span className="service-card-description">
-                From productivity to marketing to collaboration and beyond, now you can
-                connect your business applications, such as ERP, CRM, Warehouse Management 
-                Systems (WMS), e-Commerce, and legacy systems to the other 
-                tools you need to run your business by our integration services.</span>
+                Our services helps you access a wide range from productivity 
+                to marketing to collaboration and beyond. Now you can connect your 
+                business applications, such as ERP, CRM, Warehouse Management Systems (WMS), 
+                e-Commerce, and legacy systems to the other tools you need to run your business 
+                by our integration services.
+            </span>
                 </div>
             </div>
             </div>
             <div className="service-card-details">
-            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1681476088/img6_i6ywsk.jpg" 
+            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683095699/finger-pressing-red-icon_vowfum.jpg" 
             alt="IT-Consultancy" className="services-card-images"/>
             <div className="service-it-consultancy-style-1">
                 <div className="service-it-consultancy-style-2">
                 <span className="-card-title-service">Staff Augmentation</span>
                                 <span className="service-card-description">
-                Technolute offers to strengthen your business team with required resources. 
-                Under the staff augmentation model, we provide talents in all IT project roles, 
-                including software programming, 
-                UX and UI design, testing, and DevOps engineering.</span>
+                                Leverage our IT staff augmentation services to access certified IT 
+                                professionals, including skilled software developers, business analysts, 
+                                Scrum Masters, and QA specialists. We can help you scale up on demand with 
+                                the right pool of talented individuals without stretching your budget.
+                    </span>
              
                                </div>
             </div>
@@ -158,7 +166,7 @@ return(
 
                 <div>
                 <a href="https://www.technolute.com/services/" target="self" rel="noreferrer">
-                    <button className="button-service" >Start Now</button></a>
+                <button className="service-want-crack service-btn"  ><span className="service-anchore">Start</span></button></a>
                     </div>
                 
                 </div>
