@@ -26,9 +26,9 @@ const Home =()=>{
         <Carousel.Caption className="Carousel-Caption">
         
           <h3 className="Carousel-image-title">With Us, Your Goals Are Not Far</h3>
-          {/*<p className="Carousel-image-para">Group of Experts who are specialized in Business 
+         
+      {/* <p className="Carousel-image-para">Group of Experts who are specialized in Business 
 			Consultancy and can help you assist the right solutions for your company growt</p>
-      
       <button className="carousel-more-button-know">
         <Link to="/service" className="button-home-Page-list-styles">Service</Link></button>*/}
        <button className="button-carousel" onClick={changeLocation}>Service</button>

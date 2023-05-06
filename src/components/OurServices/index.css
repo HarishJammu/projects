@@ -28,7 +28,7 @@
         flex-direction: column;
         justify-content: flex-start;
         background-color: #ffffff;
-        height: auto;
+        height: 50vh;
         width: 20vw;
         border: 1px solid;
         border-color: #ffffff;
@@ -81,7 +81,7 @@
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .cards-image{
-        height: 45vh;
+        height: 40vh;
         width: 20vw;
     }
     
@@ -130,14 +130,13 @@
 @media screen and (min-width:1025px) and (max-width:1440px){
     .it-consultany{
         font-family: 'Rajdhani', sans-serif;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 500;
         color: #000000;
         padding-left:13px;
         padding-top: 15px;
         font-weight: 700;
     }
-    
 }
 @media screen and (min-width:300px) and (max-width:365px){
     .it-consultany{

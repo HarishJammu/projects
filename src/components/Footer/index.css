@@ -131,7 +131,6 @@
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .footer-head-style{
-        font-family: 'Rajdhani', sans-serif;
         font-size: 25px;
         color: #ffffff;
         padding-bottom: 18px;
@@ -158,7 +157,6 @@
 }
 @media Screen and (min-width:476px) and (max-width:768px){
     .footer-head-style{
-        font-family: 'Rajdhani', sans-serif;
         font-size: 18px;
         color: #ffffff;
         padding-left: 10px;
@@ -169,7 +167,6 @@
 }
 @media Screen and (min-width:769px) and (max-width:1024px){
     .footer-head-style{
-        font-family: 'Rajdhani', sans-serif;
         font-size: 24px;
         color: #ffffff;
         padding-left: 10px;
@@ -302,8 +299,8 @@ ul{
  }
  @media screen and (min-width:1025px) and (max-width:1440px){
     .Copy-icon-style{
-        height: 20px;
-        width: 20px;
+        height: 16px;
+        width: 16px;
         color:rgb(185, 191, 196);
         margin-right: 5px;
      }
@@ -316,32 +313,31 @@ ul{
 }
 @media Screen and (min-width:366px) and (max-width:475px){
     .Copy-icon-style{
-        height: 14px;
-        width: 14px;
+        height: 12px;
+        width: 12px;
 
      }
 }
 @media Screen and (min-width:476px) and (max-width:768px){
     .Copy-icon-style{
-        height: 17px;
-        width: 17px;
+        height: 15px;
+        width: 15px;
      }
 }
 @media Screen and (min-width:769px) and (max-width:1024px){
     .Copy-icon-style{
-        height: 20px;
-        width: 20px;
+        height: 16px;
+        width: 16px;
      }
 }
  .copy-logo-style{
-    font-family: 'Rajdhani', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     font-size: 16px;
     color: rgb(185, 191, 196);
  }
  @media screen and (min-width:1025px) and (max-width:1440px){
     .copy-logo-style{
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 16px;
+        font-size: 14px;
         color: rgb(185, 191, 196);
      }
 }
@@ -365,3 +361,30 @@ ul{
         font-size: 16px;
      }
 }
+
+.DESIGN-COMPANY-STYLE{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    color: rgb(209, 205, 205);
+    text-decoration: none;
+    letter-spacing: 1px;
+    
+}
+.DESIGN-COMPANY-STYLE:hover {
+    color:rgb(10, 154, 211);
+    outline: none;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s infinite;
+  }
+  
+  @-webkit-keyframes DESIGN-COMPANY-STYLE {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+}
+

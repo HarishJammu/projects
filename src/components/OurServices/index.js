@@ -1,6 +1,6 @@
-import {Link,} from "react-router-dom"
+//import {Link,} from "react-router-dom"
 //import { useNavigate } from "react-router-dom";
-import { BsArrowRight } from "react-icons/bs";
+//import { BsArrowRight } from "react-icons/bs";
 //import { useState } from "react";
 import "./index.css"
 
@@ -16,7 +16,7 @@ const  OurServices=()=>{
             alt="it consultancy" className="cards-image"/>
             <div className="details">
             <h1 className="it-consultany">It Consultancy</h1>
-            <p className="know-more"><Link to="/service" className="our-services-home-Page-list-styles">Know More <BsArrowRight/></Link></p>
+            {/*<p className="know-more"><Link to="/service" className="our-services-home-Page-list-styles">Know More <BsArrowRight/></Link></p>*/}
             </div>
             </div>
             <div className="cards">
@@ -24,8 +24,7 @@ const  OurServices=()=>{
             alt="it consultancy" className="cards-image"/>
             <div className="details">
             <h1 className="it-consultany">Application Development</h1>
-            <p className="know-more">
-                <Link to="/service" className="our-services-home-Page-list-styles">Know More <BsArrowRight/></Link></p>
+           {/*<p className="know-more"><Link to="/service" className="our-services-home-Page-list-styles">Know More <BsArrowRight/></Link></p>*/}
             </div>
             </div>
             <div className="cards">
@@ -33,7 +32,7 @@ const  OurServices=()=>{
             alt="it consultancy" className="cards-image"/>
             <div className="details">
             <h1 className="it-consultany">Staff Augmentation</h1>
-            <p className="know-more"> <Link to="/service" className="our-services-home-Page-list-styles">Know More <BsArrowRight/></Link></p>
+            {/*<p className="know-more"><Link to="/service" className="our-services-home-Page-list-styles">Know More <BsArrowRight/></Link></p>*/}
             </div>
             </div>
             <div className="cards">
@@ -42,7 +41,7 @@ const  OurServices=()=>{
             <div className="details">
             <h1 className="it-consultany">Enterprise Quality Assurance</h1>
             <p className="know-more"> 
-            <Link to="/service" className="our-services-home-Page-list-styles">Know More <BsArrowRight/></Link>
+            {/*<p className="know-more"><Link to="/service" className="our-services-home-Page-list-styles">Know More <BsArrowRight/></Link></p>*/}
             </p>
             </div>
             </div>

@@ -43,7 +43,8 @@ const Footer=()=>(
     </div>
     <hr className="horozontal-line"/>
     <div className="copy-right-section">
-        <p className="copy-logo-style"><MdOutlineCopyright className="Copy-icon-style"/>2023 Asoftsol.All Rights Reserved</p>
+        <p className="copy-logo-style"><MdOutlineCopyright className="Copy-icon-style"/>2023 Asoftsol.All Rights Reserved | Designed by 
+        <a href="https://www.truquest.net/" target="_blank" without rel="noreferrer"  className="DESIGN-COMPANY-STYLE">  TRUQUEST INFOTECH</a></p>
         </div>
     </div>
 )

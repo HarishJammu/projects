@@ -344,7 +344,7 @@
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .about-details-image{
-        height: 65vh;
+        height: 55vh;
         width: 55vw;
         margin-left: 15px;
     }

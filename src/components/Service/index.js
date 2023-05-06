@@ -1,12 +1,14 @@
-
+import { Navigate } from "react-router-dom";
+import { useState } from "react";
 import Footer from "../Footer";
 import "./index.css";
 const Service=()=>{
-/* <span className="service-card-description">
-                    We provide world-class Application Development services by constantly
-                    exploring and implementing innovative solutions 
-                    that drive long-term value to our clients. 
-                    </span>*/
+    const [gotoContact,setGotoContact]=useState(false)
+
+    
+    if (gotoContact){
+        return <Navigate to="/contact"/>
+    }
 return(
 
     <div className="about-container">
@@ -51,20 +53,7 @@ return(
                 </div>
             </div>
             </div>
-            {/*<div className="service-card-details">
-            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1681291855/card_4_bqwbpm.jpg" 
-            alt="IT-Consultancy" className="services-card-images"/>
-            <div className="service-it-consultancy-style-1">
-                <div className="service-it-consultancy-style-2">
-                <span className="-card-title-service">Enterprise Quality Assurance</span>
-                <span className="service-card-description">
-            Our Quality Assurance encompasses the entire software development 
-            lifecycle and the goal is to ensure that the development and maintenance 
-            processes are continuously improved to produce products 
-            that meet specifications/requirements.</span>
-                </div>
-            </div>
-            </div>*/}
+            
             <div className="service-card-details">
             <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683262354/map-lying-wooden-table_1_t9okdu.jpg" 
             alt="IT-Consultancy" className="services-card-images"/>
@@ -82,35 +71,7 @@ return(
                 </div>
             </div>
             </div>
-            {/*/<div className="service-card-details">
-            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1682756235/representations-user-experience-interface-design_ftacaw.jpg" 
-            alt="IT-Consultancy" className="services-card-images"/>
-            <div className="service-it-consultancy-style-1">
-                <div className="service-it-consultancy-style-2">
-                <span className="-card-title-service">Mobile Apps Development</span>
-                <span className="service-card-description">
-        Having built many mobile apps, we understand that user engagement is the determining 
-        factor of mobile application success. User engagement is built on simple onboarding,
-        minimalistic design, self guiding workflows and consistent performance of the application. 
-        Our team of designers ensure 
-        that your application is built for success with the end user in focus.</span>
-                </div>
-            </div>
-            </div>*/}
-            {/*<div className="service-card-details">
-            <img src="https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040430.jpg?w=360&t=st=1682756120~exp=1682756720~hmac=96b86e2767f4a84fd1fbc1a5c62157715181c138a88c5d7f0eb5b14855d809f4" 
-            alt="IT-Consultancy" className="services-card-images"/>
-            <div className="service-it-consultancy-style-1">
-                <div className="service-it-consultancy-style-2">
-                <span className="-card-title-service">Web Portal Development & Solutions</span>
-                <span className="service-card-description">
-            A quality website helps you build that first impression. We create that webportal 
-            to connect with your customers, a first point of contact with your target audience. 
-            Especially considering the paradigm shift in the way customers connect with brands, 
-            our well designed websites have a significant role to play. </span>
-                </div>
-            </div>
-            </div>*/}
+    
             <div className="service-card-details">
             <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683095693/business-startup-strategy-goals-concept_cjehan.jpg" 
             alt="IT-Consultancy" className="services-card-images"/>
@@ -165,8 +126,8 @@ return(
                 <h1 className="service-want-you-title">Want To Choose Our Consultancy Services ?</h1>
 
                 <div>
-                <a href="https://www.technolute.com/services/" target="self" rel="noreferrer">
-                <button className="service-want-crack service-btn"  ><span className="service-anchore">Start</span></button></a>
+                
+                <button className="service-want-crack service-btn" onClick={()=>{setGotoContact(true)}}><span className="service-anchore">Start</span></button>
                     </div>
                 
                 </div>

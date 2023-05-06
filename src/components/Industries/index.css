@@ -77,7 +77,7 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
 }
 
 .Industries-style{
-    font-family: "Noto Sans", sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 50px;
     color: #030a11d8;
     font-weight:700;
@@ -139,14 +139,13 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
 }
 
 .industries-title-service{
-    font-family: sans-serif;;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 20px;
     color: #f80f0f;
     padding-top: 15px;
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .industries-title-service{
-        font-family: sans-serif;;
         font-size: 35px;
         color: #f80f0f;
         padding-top: 15px;
@@ -156,7 +155,6 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
 }
 @media screen and (min-width:300px)and (max-width:365px){
     .industries-title-service{
-        font-family:'Rajdhani', sans-serif;;
         font-size: 18px;
         color: #f80f0f;
         padding-top: 15px;
@@ -164,7 +162,6 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
 }
 @media screen and (min-width:366px)and (max-width:475px){
     .industries-title-service{
-        font-family: 'Rajdhani', sans-serif;;
         font-size: 20px;
         color: #f80f0f;
         padding-top: 15px;
@@ -172,7 +169,6 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
 }
 @media screen and (min-width:476px)and (max-width:768px){
     .industries-title-service{
-        font-family: 'Rajdhani', sans-serif;;
         font-size: 25px;
         color: #f80f0f;
         padding-top: 15px;
@@ -180,7 +176,6 @@ background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 
 }
 @media screen and (min-width:769px)and (max-width:1024px){
     .industries-title-service{
-        font-family: 'Rajdhani', sans-serif;;
         font-size: 32px;
         color: #f80f0f;
         padding-top: 15px;

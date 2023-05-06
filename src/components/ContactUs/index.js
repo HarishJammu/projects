@@ -69,7 +69,7 @@ const  ContactUs =()=>{
         <div className="Contact-details">
         <SlLocationPin className="contact-location-logo"/>
         <p className="location-title">Our Office Location</p>
-        <p className="location-details">3718 Block Drive, Irving, Texas APT 1210</p>
+        <p className="location-details">2012 palmera ridge blvd, Leander, Texas - 78641</p>
         </div>
         <div className="v1"></div>
         <div className="Contact-details">
