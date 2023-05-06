@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
 
+
 .social-meadia{
     display: flex;
     flex-direction: row;
@@ -61,8 +62,8 @@
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .Mail-style{
-    height: 20px;
-    width: 20px;
+    height: 17px;
+    width: 17px;
     color: #000000;
     margin-left:30px;
 }
@@ -111,7 +112,7 @@ padding-top: 8px;
     .company-website{  
         font-family: "Noto Sans", sans-serif;
         color: #ffffff;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 400;
         padding-left: 20px;
 
@@ -194,8 +195,8 @@ padding-top: 8px;
  }
  @media screen and (min-width:1025px) and (max-width:1440px){
     .FLS-style{
-        height: 25px;
-        width: 30px;
+        height: 21px;
+        width: 26px;
         margin-top: 5px;
         margin-left: 15px;
      }
@@ -246,6 +247,7 @@ padding-top: 8px;
     background-color: #00b6ef;
     height: auto;
     width: 100vw;
+    
 }
 
 @media screen and (min-width:1025px) and (max-width:1440px){
@@ -254,7 +256,7 @@ padding-top: 8px;
         flex-direction: row;
         justify-content: flex-start;
         position: static;
-        height: auto;
+        height: 7.5vh;
         width: 100vw;
     }
 }
@@ -265,16 +267,16 @@ padding-top: 8px;
 }
 @media screen and (min-width:366px) and (max-width:475px) {
     .Header-part{
-        height: 8vh
+        height: 8vh;
     }}
 @media screen and (min-width:476px) and (max-width:768px) {
     .Header-part{
-        height: 10vh
+        height: 10vh;
     }
 }
 @media screen and (min-width:769px) and (max-width:1024px) {
     .Header-part{
-        height: 6vh
+        height: 6.8vh;
     }
 
 }
@@ -326,6 +328,7 @@ padding-top: 8px;
     display:flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     list-style-type: none;
     margin-left: 350px;
     padding-top:9px;
@@ -368,7 +371,7 @@ padding-top: 8px;
         flex-direction: row;
         justify-content: center;
         list-style-type: none;
-        margin-left: 50px;
+        margin-left: 30px;
         padding: auto;
     }
 }
@@ -378,7 +381,7 @@ padding-top: 8px;
         flex-direction: row;
         justify-content: center;
         list-style-type: none;
-        margin-left: 90px;
+        margin-left: 150px;
         padding: auto;
     }
 }
@@ -386,10 +389,11 @@ padding-top: 8px;
 
 .list-types{
     padding-right: 25px;
+
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .list-types{
-        padding-right: 40px;
+        padding-right: 35px;
     }
 }
 
@@ -405,14 +409,15 @@ padding-top: 8px;
 }
 @media screen and (min-width:476px) and (max-width:768px){
     .list-types{
-        padding-right: 5px;
+        padding-right: 7px;
     }
 }
 @media screen and (min-width:769px) and (max-width:1024px) {
     .list-types{
-        padding-right: 10px;
+        padding-right: 9px;
     }
 }
+
 
 .Page-list-styles{
     font-family: 'Rajdhani', sans-serif;
@@ -426,7 +431,7 @@ padding-top: 8px;
     .Page-list-styles{
         font-family: 'Rajdhani', sans-serif;
         color: #ffffff;
-        font-size: 22px;
+        font-size: 19px;
         text-decoration: none;
         padding-top:8px;
     
@@ -444,18 +449,24 @@ padding-top: 8px;
 }
 @media screen and (min-width:476px)  and (max-width:768px) {
     .Page-list-styles{
-        font-size: 18px; 
+        font-size: 14px; 
         padding-right: 15px;
     }
 }
 @media screen and (min-width:769px) and (max-width:1024px) {
     .Page-list-styles{
-        font-size: 25px; 
-        padding-right: 15px;
+        font-size: 17px; 
+        padding-right: 10px;
        
     }
 
 }
+
+    .Page-list-styles:focus {
+        color:blue;
+        outline: none;
+    }
+    
 .btn-head-button {
     background: #f39c12;
     color: #fff;
@@ -480,16 +491,15 @@ padding-top: 8px;
         cursor: pointer;
         transition-duration: 0.4s;
         height: 2rem;
-        width: 6.3rem;
+        width: 6.1rem;
         text-align: center;
-        margin-left: 5rem;
+        margin-left: 8rem;
         font-size: 18px;
         margin-top: 10px;
     }
 }
 @media screen and (min-width:300px)and (max-width:365px) {
     .btn-head-button{
-       
         display: none;
     }
 }
@@ -501,18 +511,19 @@ padding-top: 8px;
 }
 @media screen and (min-width:476px) and (max-width:768px) {
     .btn-head-button{
-    background: #f39c12;
-    color: #fff;
-    font-size: 1.1rem;
-    font-weight: 400;
-    border: none;
-    border-radius: 2rem;
-    cursor: pointer;
-    transition-duration: 0.4s;
-    height: 2.5rem;
-    width: 6.5rem;
-    text-align: center;
-    margin-left: 2rem;
+        background: #f39c12;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 400;
+        border: none;
+        border-radius: 1.2rem;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        height: 2.3rem;
+        width: 6rem;
+        text-align: center;
+        margin-left: 5rem;
+        margin-top: 5px;
     }
 }
 
@@ -529,7 +540,8 @@ padding-top: 8px;
         height: 2.2rem;
         width: 8rem;
         text-align: center;
-        margin-left: 3rem;
+        margin-left: 9rem;
+        margin-top: 5px;
     }
 
 }

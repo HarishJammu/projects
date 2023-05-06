@@ -5,7 +5,7 @@ import "./index.css"
 
 const Header=()=>{
    return(
-<>
+<div id="position">
    <div className="social-meadia">     
    <div className="image-back">
       <div className="logo-ul-style">
@@ -50,6 +50,6 @@ const Header=()=>{
                         </div>
                      </ul>
                   </div>
-</>
+</div>
 )}
 export default Header;

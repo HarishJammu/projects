@@ -302,35 +302,35 @@ ul{
  }
  @media screen and (min-width:1025px) and (max-width:1440px){
     .Copy-icon-style{
-        height: 22px;
-        width: 22px;
+        height: 20px;
+        width: 20px;
         color:rgb(185, 191, 196);
         margin-right: 5px;
      }
 }
  @media Screen and (min-width:300px) and (max-width:365px){
     .Copy-icon-style{
-        height: 15px;
-        width: 15px;
+        height: 13px;
+        width: 13px;
      }
 }
 @media Screen and (min-width:366px) and (max-width:475px){
     .Copy-icon-style{
-        height: 16px;
-        width: 16px;
+        height: 14px;
+        width: 14px;
 
      }
 }
 @media Screen and (min-width:476px) and (max-width:768px){
     .Copy-icon-style{
-        height: 19px;
-        width: 19px;
+        height: 17px;
+        width: 17px;
      }
 }
 @media Screen and (min-width:769px) and (max-width:1024px){
     .Copy-icon-style{
-        height: 24px;
-        width: 24px;
+        height: 20px;
+        width: 20px;
      }
 }
  .copy-logo-style{

@@ -859,7 +859,7 @@
 @media screen and (min-width:476px) and (max-width:768px){
     .input-styles{
         height: 45px;
-        width: 450px;
+        width: auto;
         background-color: #f5f5f5;
         margin-bottom: 5px;
         border: 1px solid #f5f5f5;
@@ -977,7 +977,7 @@
 @media screen and (min-width:476px) and (max-width:768px){
     .textarea-style{
         height: 25vh;
-        width: 450px;
+        width: auto;
         background-color: #f5f5f5;
         border: 1px solid #f5f5f5;
         margin-bottom: 10px;

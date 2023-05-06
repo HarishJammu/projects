@@ -4,7 +4,9 @@
 .background-color{
     background-color: #ffffff;
     height: auto;
-    width: 100vw;}
+    width: 100vw;
+
+}
 .Home-container{
     display: flex;
     flex-direction: column;
@@ -28,13 +30,13 @@
 
 @media screen and (min-width:300px) and (max-width:365px){
     .Carousel-Item{
-        height: 65vh;
+        height: 35vh;
         width: 100vw;
     }
 }
 @media screen and (min-width:366px) and (max-width:475px){
     .Carousel-Item{
-        height: 80vh;
+        height: 40vh;
         width: 100vw;
     }
 }
@@ -46,7 +48,7 @@
 }
 @media screen and (min-width:769px) and (max-width:1024px){
     .Carousel-Item{
-        height: 80vh;
+        height: auto;
         width: 100vw;
     }
 }
@@ -71,7 +73,7 @@
         position: absolute;
         left: 0;
         width: 60%;
-        top: 45%;
+        top: 60%;
         margin-left:18%;
         text-align: center;
     }
@@ -108,7 +110,7 @@
     font-family: 'Rajdhani', sans-serif;
     font-size: 31px;
     font-weight: bold;
-    color: #f0950c;
+    color: #d9ff00;
     padding-bottom: 20px;
     line-height: 15px;
 }

@@ -51,9 +51,10 @@
 @media screen and (min-width:366px) and (max-width:475px) {
     .cards{
         height: auto;
-        width: 200px;
+        width: 320px;
         margin-right:10px;
         margin-bottom: 30px;
+        margin-left: 25px;
     }
     
 }
@@ -88,13 +89,13 @@
 @media screen and (min-width:300px) and (max-width:365px){
     .cards-image{
         height: 340px;
-        width: 300px;
+        width: auto;
     }
 }
 @media screen and (min-width:366px) and (max-width:475px){
     .cards-image{
-        height: 210px;
-        width: 200px;
+        height: 290px;
+        width: auto;
     }
     
 }
