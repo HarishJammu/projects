@@ -511,19 +511,7 @@ padding-top: 8px;
 }
 @media screen and (min-width:476px) and (max-width:768px) {
     .btn-head-button{
-        background: #f39c12;
-        color: #fff;
-        font-size: 1rem;
-        font-weight: 400;
-        border: none;
-        border-radius: 1.2rem;
-        cursor: pointer;
-        transition-duration: 0.4s;
-        height: 2.3rem;
-        width: 6rem;
-        text-align: center;
-        margin-left: 5rem;
-        margin-top: 5px;
+        display: none;
     }
 }
 

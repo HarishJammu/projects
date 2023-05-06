@@ -388,3 +388,52 @@ ul{
     }
 }
 
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .DESIGN-COMPANY-STYLE{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 16px;
+        color: rgb(209, 205, 205);
+        text-decoration: none;
+        letter-spacing: 1px;
+        
+    }
+}
+ @media Screen and (min-width:300px) and (max-width:365px){
+    .DESIGN-COMPANY-STYLE{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 8px;
+        color: rgb(209, 205, 205);
+        text-decoration: none;
+        
+    }
+}
+@media Screen and (min-width:366px) and (max-width:475px){
+    .DESIGN-COMPANY-STYLE{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 8px;
+        color: rgb(209, 205, 205);
+        text-decoration: none;
+        letter-spacing: 1px;
+        
+    }
+}
+@media Screen and (min-width:476px) and (max-width:768px){
+    .DESIGN-COMPANY-STYLE{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 16px;
+        color: rgb(209, 205, 205);
+        text-decoration: none;
+        letter-spacing: 1px;
+        
+    }
+}
+@media Screen and (min-width:769px) and (max-width:1024px){
+    .DESIGN-COMPANY-STYLE{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 16px;
+        color: rgb(209, 205, 205);
+        text-decoration: none;
+        letter-spacing: 1px;
+        
+    }
+}
