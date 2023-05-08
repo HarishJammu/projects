@@ -29,17 +29,31 @@ const About=()=>{
             {/*<p className="second-about-line">About Us</p>*/}
             <h1 className="second-about-title">Expand Your Digital Footprint Across IT Industry</h1>
             <p className="content-creation">   Our technical expert team is a proven example of the professionalism, expertise and technical mastery. 
-            We offer best in the industry hirings and services.
-Asoftsol is a consulting, solutions and services provider company. We specialize in Project/Program Management, 
-IT development/deployment, and providing expert professionals for resource augmentation needs of the clients. So whether you're an
- experienced technology professional who is looking for a new career opportunity, or a business in need of 
- technology consultants, permanent staff or enterprise solutions, Asoftsol will help you meet your individual or business objectives.
-Our technical consultancy and staffing helps the company nurture and grow with all possible 
-technical assistance and staffing needs. We encourage job seekers with our satisfactory staffing services, 
-reverting into best in the market packages and perks. We even offer trainings to our staff for their professional 
-growth making them competent professionals.</p>
-        </div>
-        </div>
+                            We offer best in the industry hirings and services.
+                Asoftsol is a consulting, solutions and services provider company. We specialize in Project/Program Management, 
+                IT development/deployment, and providing expert professionals for resource augmentation needs of the clients. So whether you're an
+                experienced technology professional who is looking for a new career opportunity, or a business in need of 
+                technology consultants, permanent staff or enterprise solutions, Asoftsol will help you meet your individual or business objectives.
+                Our technical consultancy and staffing helps the company nurture and grow with all possible 
+                technical assistance and staffing needs. We encourage job seekers with our satisfactory staffing services, 
+                reverting into best in the market packages and perks. We even offer trainings to our staff for their professional 
+                growth making them competent professionals.</p>
+                </div>
+                <p className="content-creation w-100 p-auto">  At [Asoftsol], we pride ourselves on our commitment 
+                to delivering the best services to our clients. We take the time to understand our clients' 
+                needs and tailor our services to meet their specific requirements. Our team 
+                is highly skilled and knowledgeable, and we are always on the cutting edge of the latest 
+                trends and technologies in our industry.</p>
+                <p className="content-creation w-100 p-auto">  We understand that every business is unique, and 
+                we work closely with our clients to develop customized solutions that meet their specific 
+                needs. Whether you are looking to increase your revenue, improve your operational
+                efficiency, or enhance your overall business performance, we have the expertise and 
+                experience to help you achieve your goals.</p>
+                
+                <p className="content-creation w-100 p-auto">If you are looking for a reliable and trusted consultancy 
+                firm that can help you achieve your business goals, look no further than [Asoftsol]. 
+                Contact us today to learn more about our services and how we can help you succeed.</p>
+                </div>
         
         <div className="about-Want-you-choose">
             <div className="about-sec-container">

@@ -45,7 +45,7 @@ const  ContactUs =()=>{
             alt="about-us" 
             className="about-banner-image"/>
          <div className="banner-card">
-            <h1 className="banner-heading">Contact</h1>
+            <h1 className="banner-heading">Contact Us</h1>
             <p className="banner-para">We are here to help and answer any question you might have. We look forward to hearing from you</p>
          </div>
         </div> 

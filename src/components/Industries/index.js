@@ -18,7 +18,11 @@ const IndustriesExpo=()=>{
 
          <div className="banner-card">
             <h1 className="banner-heading">Industries</h1>
-            <p className="banner-para">let's discuss about our comapny</p>
+            <p className="banner-para">We are a team of experienced consultants who provide customized 
+            solutions to businesses across various industries. Our expertise spans multiple domains, 
+            including marketing, sales, operations, finance, and more. We believe in working closely 
+            with our clients to understand their unique challenges and goals and then delivering 
+            tailored solutions that help them achieve success.</p>
          </div>
         </div> 
      <div className="Service-provides">
