@@ -23,7 +23,7 @@ const IndustriesExpo=()=>{
         </div> 
      <div className="Service-provides">
         <div className="Service-tags">
-                <span className="industries-title-service">Industries</span>
+                {/*<span className="industries-title-service">Industries</span>*/}
                 <h1  className="Industries-title-Explore">Industries We Serve</h1>
         </div>
         </div>

@@ -17,13 +17,13 @@ return(
     alt="about-us" className="about-banner-image"/>
     <div className="banner-card">
             <h1 className="banner-heading">Servises</h1>
-            <p className="banner-para">let's discuss about our comapny</p>
+            <p className="banner-para">We work with clients to develop a comprehensive strategic plan that aligns with their vision and mission.
+            We help clients identify opportunities for growth, analyze market trends, and develop a roadmap for success.</p>
          </div>
     </div>
     
      <div className="Service-provides">
         <div className="Service-tags">
-                <span className="-title-service-about">Our Services</span>
                 <span  className="about-title-Explore">Explore Our Services</span>
         </div>
         </div>

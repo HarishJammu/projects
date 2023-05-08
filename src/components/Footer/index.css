@@ -232,7 +232,7 @@
   overflow: hidden;
 }
 
-.cazooming-effectrd:hover {
+.zooming-effectrd:hover {
   transform: scale(1.2);
   transition: transform 0.5s ease;
 }
@@ -244,8 +244,28 @@
     line-height: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
-   
 }
+
+
+  .footer-style-follow {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .footer-style-follow::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #333;
+    transition: width 0.3s;
+  }
+  
+  .footer-style-follow:hover::before {
+    width: 40%;
+  }
 
 @media screen and (min-width:1025px) and (max-width:1440px){
     .footer-style-follow{
@@ -510,5 +530,8 @@ ul{
     color: #0072b1;
 }
 .instagram-color:hover{
-    color:red;
+    color:rgb(255, 255, 255);
+}
+.email-color:hover{
+    color:rgb(255, 255, 255);
 }

@@ -37,10 +37,10 @@ const Footer=()=>(
                 <li className="footer-style">3718 Block Drive, Irving, Texas, APT 1210</li>
                 <li className="footer-style-follow">Follow Us</li>
                 <p className="footer-style"> 
-                <a href="https://www.facebook.com/" className="zooming-effect" target="_blank" rel="noreferrer"><FaFacebookF className="footer-FLS-style facebook-color"/></a>
-                <a href="https://in.linkedin.com/" className="zooming-effect" target="_blank" rel="noreferrer"><FaLinkedinIn className="footer-FLS-style linkedin-color"/></a>
-                <a href="https://www.instagram.com/" className="zooming-effect" target="_blank" rel="noreferrer"><RiInstagramFill className="footer-FLS-style instagram-color"/></a>
-                <a href="mailto:email@example.com" className="zooming-effect"><SiGmail className="footer-FLS-style"/></a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><FaFacebookF className="footer-FLS-style facebook-color"/></a>
+                <a href="https://in.linkedin.com/"  target="_blank" rel="noreferrer"><FaLinkedinIn className="footer-FLS-style linkedin-color"/></a>
+                <a href="https://www.instagram.com/"  target="_blank" rel="noreferrer"><RiInstagramFill className="footer-FLS-style instagram-color"/></a>
+                <a href="mailto:email@example.com" ><SiGmail className="footer-FLS-style email-color"/></a>
                      </p>
             </ul>
     </div>
