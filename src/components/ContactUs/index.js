@@ -46,7 +46,7 @@ const  ContactUs =()=>{
             className="about-banner-image"/>
          <div className="banner-card">
             <h1 className="banner-heading">Contact</h1>
-            <p className="banner-para">let's discuss about our comapny</p>
+            <p className="banner-para">We are here to help and answer any question you might have. We look forward to hearing from you</p>
          </div>
         </div> 
     <div className="Contact-us-stylings">
@@ -58,7 +58,7 @@ const  ContactUs =()=>{
         <div className="v1"></div>
         <div className="Contact-details">
             <ImMobile className="contact-location-logo"/>
-        <p className="location-title">Get In Touch With Us</p>
+        <p className="location-title">Give Us A Call</p>
         <p className="location-details-number">572-286-9107</p>
         </div>
         <div className="v1"></div>

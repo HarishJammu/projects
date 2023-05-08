@@ -179,6 +179,9 @@
         }
 }
 .banner-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     font-family: 'Rajdhani', sans-serif;
     font-size: 48px;
     color: #f80f0f;
@@ -423,7 +426,6 @@
       left: 0;
     }
   }
-
 @media screen and (min-width:1025px) and (max-width:1440px){
     .brief-about-us{
         display: flex;
