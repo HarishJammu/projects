@@ -20,7 +20,11 @@
     margin-bottom: 20px;
     margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.5s;
 }
+.cards:hover {
+    transform: scale(1.1);
+  }
 
 @media screen and (min-width:1025px) and (max-width:1440px){
     .cards{
@@ -28,7 +32,7 @@
         flex-direction: column;
         justify-content: flex-start;
         background-color: #ffffff;
-        height: 50vh;
+        height: auto;
         width: 20vw;
         border: 1px solid;
         border-color: #ffffff;
@@ -81,7 +85,7 @@
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .cards-image{
-        height: 40vh;
+        height: 50vh;
         width: 20vw;
     }
     

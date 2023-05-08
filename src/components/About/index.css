@@ -1,42 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
 .about-container{
-    background-color: #ffffff;
+    background-color: aliceblue;
     height: auto;
     width: 100vw;
 }
 .about-us-title-card{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
     height: 40vh;
-    width: 100svw;
-    background: rgb(228,228,228);
-    background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
+    width: 100vw;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(255, 255, 255) 14%, rrgb(255, 255, 255)35%);
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .about-us-title-card{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 50vh;
-        width: 100svw;
-        background: rgb(228,228,228);
-        padding-left: 25px;
+        height: auto;
     }
 }
 @media screen and (min-width:300px) and (max-width:365px){
     .about-us-title-card{
-        height:30vh;
+        height:auto;
     }
 }
 @media screen and (min-width:366px) and (max-width:475px){
     .about-us-title-card{
-        height:35vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height:auto;
     }
 }
 @media screen and (min-width:476px) and (max-width:768px){
     .about-us-title-card{
-        height:50vh;
+        height:auto;
     }
 }
 @media screen and (min-width:769px) and (max-width:1024px){
@@ -45,19 +42,156 @@
     }
 }
 
+.about-banner-image{
+    height: 340px;
+    width: 440px;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    position: relative;
+    animation: slide 2s ease-in-out;
+}
+  @keyframes slide {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: 0;
+    }
+  }
 
-.about-title{
-    font-family: 'Rajdhani', sans-serif;
+  @media screen and (min-width:1025px) and (max-width:1440px){
+    .about-banner-image{
+        height: 340px;
+        width: 440px;
+        margin-top: 15px;
+        margin-left: 25px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (min-width:300px) and (max-width:365px){
+    .about-banner-image{
+        height: 340px;
+        width: 440px;
+        margin-top: 15px;
+        margin-left: 25px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width:366px) and (max-width:475px){
+    .about-banner-image{
+        height: 340px;
+        width: 360px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (min-width:476px) and (max-width:768px){
+    .about-banner-image{
+        height: 340px;
+        width: 440px;
+        margin-top: 15px;
+        margin-left: 25px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .about-banner-image{
+        height: 280px;
+        width: 380px;
+        margin-top: 15px;
+        margin-left: 25px;
+        margin-bottom: 15px;
+    }
+}
+
+
+  .banner-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 25px;
+    position: relative;
+    animation: slide 3s ease-in-out;
+    padding-top: 50px;
+    padding-left: 60px;
+  }
+  @media screen and (min-width:1025px) and (max-width:1440px){
+    .banner-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 25px;
+    position: relative;
+    animation: slide 3s ease-in-out;
+    padding-top: 50px;
+    padding-left: 60px;
+    }
+}
+@media screen and (min-width:300px) and (max-width:365px){
+    .banner-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 25px;
+        position: relative;
+        animation: slide 3s ease-in-out;
+        padding-top: 50px;
+        padding-left: 60px;
+        }
+}
+
+@media screen and (min-width:366px) and (max-width:475px){
+    .banner-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 25px;
+        position: relative;
+        animation: slide 3s ease-in-out;
+        padding-top: 50px;
+        padding-left: 60px;
+        }
+}
+@media screen and (min-width:476px) and (max-width:768px){
+    .banner-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 25px;
+        position: relative;
+        animation: slide 3s ease-in-out;
+        padding-top: 100px;
+        padding-left: 20px;
+        }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .banner-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 25px;
+        position: relative;
+        animation: slide 3s ease-in-out;
+        padding-top: 50px;
+        padding-left: 60px;
+        }
+}
+.banner-heading{
+    font-family: sans-serif;
     font-size: 48px;
     color: #f80f0f;
     font-weight: 700;
     padding-left: 20px;
     padding-right: 15px;
 }
+
+
 @media screen and (min-width:1025px) and (max-width:1440px){
-    .about-title{
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 48px;
+    .banner-heading{
+        
+        font-size: 40px;
         color: #f80f0f;
         font-weight: 700;
         padding-left: 20px;
@@ -65,7 +199,7 @@
     }
 }
 @media screen and (min-width:300px) and (max-width:365px){
-    .about-title{
+    .banner-heading{
         font-size: 27px;
         font-weight: 700;
         padding-left: 20px;
@@ -74,30 +208,30 @@
 }
 
 @media screen and (min-width:366px) and (max-width:475px){
-    .about-title{
-        font-size: 31px;
+    .banner-heading{
+        font-size: 28px;
         font-weight: 700;
         padding-left: 20px;
         padding-right: 15px;
     }
 }
 @media screen and (min-width:476px) and (max-width:768px){
-    .about-title{
-        font-size: 45px;
+    .banner-heading{
+        font-size: 37px;
         font-weight: 700;
         padding-left: 20px;
         padding-right: 15px;
     }
 }
 @media screen and (min-width:769px) and (max-width:1024px){
-    .about-title{
-        font-size: 48px;
+    .banner-heading{
+        font-size: 25px;
         font-weight: 700;
         padding-left: 20px;
         padding-right: 15px;
     }
 }
-.about-us-style{
+.banner-para{
     font-family: 'Rajdhani', sans-serif;
     font-size: 48px;
     color: #030a11d8;
@@ -105,16 +239,16 @@
     padding-left: 20px;
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
-    .about-us-style{
+    .banner-para{
         font-family: 'Rajdhani', sans-serif;
-        font-size: 48px;
+        font-size: 25px;
         color: #030a11d8;
         font-weight: 700;
         padding-left: 20px;
     }
 }
 @media screen and (min-width:300px) and (max-width:365px){
-    .about-us-style{
+    .banner-para{
         font-size: 27px;
         color: #030a11d8;
         font-weight: 700;
@@ -124,160 +258,36 @@
 
 
 @media screen and (min-width:366px) and (max-width:475px){
-    .about-us-style{
-        font-size: 31px;
+    .banner-para{
+        font-size: 22px;
         font-weight: 700;
         padding-left: 10px;
+        padding-top: 15px;
+        line-height:15px;
+
     }
 }
 @media screen and (min-width:476px) and (max-width:768px){
-    .about-us-style{
+    .banner-para{
         font-family: 'Rajdhani', sans-serif;
-        font-size: 45px;
+        font-size: 20px;
+        color: #030a11d8;
+        font-weight: 700;
+        padding-left: 10px;
+        line-height: 18px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .banner-para{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 18px;
         color: #030a11d8;
         font-weight: 700;
         padding-left: 10px;
     }
 }
-@media screen and (min-width:769px) and (max-width:1024px){
-    .about-us-style{
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 46px;
-        color: #030a11d8;
-        font-weight: 700;
-        padding-left: 10px;
-    }
-}
-.about-sub-title{
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 16px;
-    color: hsla(0, 0%, 0%, 0.847);
-    text-decoration: underline;
-    padding-left: 20px;
-}
-@media screen and (min-width:1025px) and (max-width:1440px){
-    .about-sub-title{
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 16px;
-        color: hsla(0, 0%, 0%, 0.847);
-        text-decoration: underline;
-        padding-left: 20px;
-    }
-}
-@media screen and (min-width:300px) and (max-width:365px){
-    .about-sub-title{
-        font-size: 14px;
-        color: hsla(0, 0%, 0%, 0.847);
-        text-decoration: underline;
-        padding-left: 20px;
-    }
-}
 
-
-@media screen and (min-width:366px) and (max-width:475px){
-    .about-sub-title{
-        font-size: 15px;
-        text-decoration: underline;
-        padding-left: 20px;
-    }
-}
-@media screen and (min-width:476px) and (max-width:768px){
-    .about-sub-title{
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 18px;
-        color: hsla(0, 0%, 0%, 0.847);
-        text-decoration: underline;
-        padding-left: 20px;
-    }
-}
-@media screen and (min-width:769px) and (max-width:1024px){
-    .about-sub-title{
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 19px;
-        color: hsla(0, 0%, 0%, 0.847);
-        text-decoration: underline;
-        padding-left: 20px;
-    }
-}
-.divison{
-    font-size: 20px;
-    color: #f50606;
-}
-@media screen and (min-width:1025px) and (max-width:1440px){
-    .divison{
-        font-size: 20px;
-        color: #f50606;
-    }
-}
-@media screen and (min-width:300px) and (max-width:365px){
-    .divison{
-        font-size: 16px;
-        color: #f50606;
-    }}
-
-
-@media screen and (min-width:366px) and (max-width:475px){
-    .divison{
-        font-size: 16px;
-        color: #f50606;
-    }
-}
-@media screen and (min-width:476px) and (max-width:768px){
-    .divison{
-        font-size: 18px;
-        color: #f50606;
-    }
-}
-@media screen and (min-width:769px) and (max-width:1024px){
-    .divison{
-        font-size: 18px;
-        color: #f50606;
-    }
-}
-
-.about-sub-title-span{
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 16px;
-    color: hsla(0, 0%, 0%, 0.847);
-}
-@media screen and (min-width:1025px) and (max-width:1440px){
-    .about-sub-title-span{
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 16px;
-        color: hsla(0, 0%, 0%, 0.847);
-    }
-}
-@media screen and (min-width:300px) and (max-width:365px){
-    .about-sub-title-span{
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 14px;
-        color: hsla(0, 0%, 0%, 0.847);
-    }
-}
-
-
-@media screen and (min-width:366px) and (max-width:475px){
-    .about-sub-title-span{
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 16px;
-        color: hsla(0, 0%, 0%, 0.847);
-    }
-}
-@media screen and (min-width:476px) and (max-width:768px){
-    .about-sub-title-span{
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 18px;
-        color: hsla(0, 0%, 0%, 0.847);
-    }
-}
-@media screen and (min-width:769px) and (max-width:1024px){
-    .about-sub-title-span{
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 20px;
-        color: hsla(0, 0%, 0%, 0.847);
-    }
-}
-.about-details{
+.about-details-container{
     display: flex;
     flex-direction:row;
     justify-content: flex-start;
@@ -288,7 +298,7 @@
     flex-wrap: wrap;
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
-    .about-details{
+    .about-details-container{
         display: flex;
         flex-direction:row;
         justify-content: flex-start;
@@ -299,7 +309,7 @@
     }
 }
 @media screen and (min-width:300px) and (max-width:365px){
-    .about-details{
+    .about-details-container{
         display: flex;
         flex-direction: column;
         background-color: #ffffff;
@@ -310,25 +320,26 @@
 }
 
 @media screen and (min-width:366px) and (max-width:475px){
-    .about-details{
+    .about-details-container{
         display: flex;
         flex-direction:column;
         justify-content: flex-start;
         background-color: #ffffff;
-        margin-top: 80px;
+        margin-top: 40px;
     }
 }
 @media screen and (min-width:476px) and (max-width:768px){
-    .about-details{
+    .about-details-container{
         display: flex;
         flex-direction:row;
         justify-content: flex-start;
+        height: 40vh;
         background-color: #ffffff;
-        margin-top: 80px;
+        margin-top: 40px;
     }
 }
 @media screen and (min-width:769px) and (max-width:1024px){
-    .about-details{
+    .about-details-container{
         display: flex;
         flex-direction:row;
         justify-content: flex-start;
@@ -359,26 +370,27 @@
 
 @media screen and (min-width:366px) and (max-width:475px){
     .about-details-image{
-        height: 50vh;
-        width: 95vw;
-        margin: auto;
+        height: 35vh;
+        width: 100vw;
+        margin-left:0px;
 
     }
 }
 @media screen and (min-width:476px) and (max-width:768px){
     .about-details-image{
-        height: 40vh;
-        width: 45vw;
+        height: 28vh;
+        width: 48vw;
 
     }
 }
 @media screen and (min-width:769px) and (max-width:1024px){
     .about-details-image{
-        height: 40vh;
+        height: 50vh;
         width: 50vw;
         margin-left: 10px;
     }
 }
+
 .brief-about-us{
     display: flex;
     flex-direction: column;
@@ -390,6 +402,7 @@
     padding-right: 15px;
 
 }
+
 @media screen and (min-width:1025px) and (max-width:1440px){
     .brief-about-us{
         display: flex;
@@ -421,17 +434,16 @@
         flex-direction: column;
         height: 50vh;
         width: 100vw;
-        padding-top: 0px;
-        padding-left: 5px;
-        padding-right: 5px;
+
     }
 }
 @media screen and (min-width:476px) and (max-width:768px){
     .brief-about-us{
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         height: 45vh;
-        width:45vw;
+        width:47vw;
         padding: auto;
 
     }
@@ -643,10 +655,10 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height:40vh;
+        height:25vh;
         width: 100vw;
         background-color: #1f1c1c;;
-        margin-top: 150px;
+        margin-top: 60px;
     }
 }
 @media screen and (min-width:476px) and (max-width:768px){
@@ -654,7 +666,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height:50vh;
+        height:30vh;
         width: 100vw;
         background-color: #1f1c1c;;
         margin-top: 10px;
@@ -668,7 +680,7 @@
         height:40vh;
         width: 100vw;
         background-color: #1f1c1c;;
-        margin-top: 0px;
+        margin-top: 25px;
     }
 }
 .about-sec-container{

@@ -1,11 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
 
-
-.social-meadia{
+/*.social-meadia{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:flex-end;
     align-items: center;
     background-color: #00b6ef;
     height: 6vh;
@@ -14,8 +13,6 @@
 @media screen and (min-width:1025px) and (max-width:1440px){
     .social-meadia{
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         height: 6vh;
         width: 100vw;
     }
@@ -65,7 +62,7 @@
     height: 17px;
     width: 17px;
     color: #000000;
-    margin-left:30px;
+    margin-right:10px;
 }
 }
 @media screen and (min-width:300px)and (max-width:365px ) {
@@ -142,7 +139,7 @@ padding-top: 8px;
         font-size: 13px;
         padding-top: 8px;
     }
-}
+}*/
 .tags-styles{
     display: flex;
     justify-content: center;
@@ -195,8 +192,8 @@ padding-top: 8px;
  }
  @media screen and (min-width:1025px) and (max-width:1440px){
     .FLS-style{
-        height: 21px;
-        width: 26px;
+        height: 17px;
+    width: 17px;
         margin-top: 5px;
         margin-left: 15px;
      }
@@ -256,7 +253,7 @@ padding-top: 8px;
         flex-direction: row;
         justify-content: flex-start;
         position: static;
-        height: 7.5vh;
+        height: auto;
         width: 100vw;
     }
 }
@@ -312,7 +309,7 @@ padding-top: 8px;
 }
 @media screen and (min-width:769px) and (max-width:1024px) {
     .company-logo{
-        height: 36px;
+        height: 34px;
         width: 100px;   
     }
 
@@ -340,7 +337,7 @@ padding-top: 8px;
         justify-content: center;
         list-style-type: none;
         margin-left: 290px;
-        padding-top:9px;
+        padding-top:18px;
     }
 }
 
@@ -371,7 +368,7 @@ padding-top: 8px;
         flex-direction: row;
         justify-content: center;
         list-style-type: none;
-        margin-left: 30px;
+        margin-left: 50px;
         padding: auto;
     }
 }
@@ -404,7 +401,7 @@ padding-top: 8px;
 }
 @media screen and (min-width:366px) and (max-width:475px){
     .list-types{
-        padding-right:8px;
+        padding-right:12px;
     }
 }
 @media screen and (min-width:476px) and (max-width:768px){

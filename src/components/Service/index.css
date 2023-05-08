@@ -12,40 +12,37 @@
 body{
     box-sizing: border-box;
 }
-.-us-title-card-service{
+/*.-us-title-card-service{
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 40vh;
     width: 100vw;
-    background: rgb(228,228,228);
-    background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
+    background: rgb(255, 255, 255);
+   
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .-us-title-card-service{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 40vh;
+        height: 55vh;
         width: 100vw;
-        background: rgb(228,228,228);
-        background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
+       
     }
 }
 @media screen and (min-width:300px)and (max-width:365px){
     .-us-title-card-service{
         height: 30vh;
         width: 100vw;
-        background: rgb(228,228,228);
-        background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
+       
     }
 }
 @media screen and (min-width:366px)and (max-width:475px){
     .-us-title-card-service{
         height: 30vh;
         width: 100vw;
-        background: rgb(228,228,228);
-        background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
+        
     }
 }
 @media screen and (min-width:476px)and (max-width:768px){
@@ -55,8 +52,7 @@ body{
         justify-content: center;
         height: 60vh;
         width: 100vw;
-        background: rgb(228,228,228);
-        background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
+        
     }
 }
 @media screen and (min-width:769px)and (max-width:1024px){
@@ -70,6 +66,7 @@ body{
         background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
     }
 }
+*/
 .about-details{
     display: flex;
     flex-direction:row;
@@ -327,19 +324,25 @@ body{
     width:30vw;
     background-color: #ffffff;
     margin-left: 20px;
+    margin-bottom: 20px;
     border-radius: 10px;
     border-color: aliceblue;
     margin-bottom: 20px;
+    transition: transform 0.5s;
 }
+.service-card-details:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .service-card-details{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         height: auto;
-        width:30vw;
+        width:27vw;
         background-color:#ffffff;
-        margin-left: 20px;
+        margin-left: 50px;
         border-radius: 10px;
         border-color: aliceblue;
         margin-bottom: 20px;
@@ -378,11 +381,14 @@ body{
 .services-card-images{
     height:60vh;
     width: 30vw;
+    border-top-right-radius:8px ;
+    border-top-left-radius:8px ;
 }
+
 @media screen and (min-width:1025px) and (max-width:1440px){
     .services-card-images{
-        height:43vh;
-        width: 28vw;
+        height:46vh;
+        width: 27vw;
     }
 }
 @media screen and (min-width:300px)and (max-width:365px){
@@ -423,7 +429,8 @@ body{
         display: flex;
        flex-direction: row;
        height: auto;
-       width: 27vw;
+       width: 26vw;
+       padding-left: 9px;
        justify-content: center;
        align-items: center;
     }
@@ -609,8 +616,9 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height:40vh;
+        height:50vh;
         width: 100vw;
+        margin-top: 30px;
         background-color: #1f1c1c;
     }
 }
@@ -630,7 +638,7 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height:50vh;
+        height:25vh;
         width: 100vw;
         background-color: #1f1c1c;;
         margin-top: 20px;

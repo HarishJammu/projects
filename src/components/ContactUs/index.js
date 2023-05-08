@@ -4,28 +4,6 @@ import { SlLocationPin } from "react-icons/sl";
 import { ImMobile } from "react-icons/im";
 import { VscMail } from "react-icons/vsc";
 import "./index.css"
-/*state={name:"",
-                email:"",
-                message:""}
-
-                changeName=(e)=>{
-                    this.setState({name:e.target.value})
-                }  
-                changeEmail=(e)=>{
-                    this.setState({email:e.target.value})
-                }
-                changeMessage=(e)=>{
-                    this.setState({message:e.target.value})
-                }  
-                
-                onSubmitSuccess=(event)=>{
-                    event.preventDefault();
-                    
-                }*/
-
-
-
-
 
               
 const  ContactUs =()=>{
@@ -62,9 +40,15 @@ const  ContactUs =()=>{
         
     return(
     <div className="contact-container">
-     <div className="contact-us-title-card">
-        <h4 className="Contact-title">Contact <span className="contact-style">Us</span></h4>
-    </div>
+    <div className="about-us-title-card">
+            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683533738/20230508114523__fpdl.in__flat-design-illustration-customer-support_23-2148887720_bdu491.jpg" 
+            alt="about-us" 
+            className="about-banner-image"/>
+         <div className="banner-card">
+            <h1 className="banner-heading">Contact</h1>
+            <p className="banner-para">let's discuss about our comapny</p>
+         </div>
+        </div> 
     <div className="Contact-us-stylings">
         <div className="Contact-details">
         <SlLocationPin className="contact-location-logo"/>

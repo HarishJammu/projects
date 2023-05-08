@@ -13,10 +13,13 @@ const About=()=>{
     <div>
    <div className="about-container">
         <div className="about-us-title-card">
-            <span className="about-title">About <span className="about-us-style">Us</span></span>
-            <span><span className="about-sub-title">Home</span><span className="divison">/</span><span className="about-sub-title-span">about us</span></span>
+            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683534951/20230508120516__fpdl.in__businessman-businesswomen-with-question-mark-light-bulb-his-head-many-questions_603999-186_xgnled.jpg" alt="about-us" className="about-banner-image"/>
+         <div className="banner-card">
+            <h1 className="banner-heading">About us</h1>
+            <p className="banner-para">let's discuss about our comapny</p>
+         </div>
         </div> 
-        <div className="about-details"> 
+        <div className="about-details-container"> 
         <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683265771/aerial-view-business-team_1_fbzcvh.jpg" 
         alt="about-us" className="about-details-image"/>
         <div className="brief-about-us">
@@ -35,7 +38,8 @@ const About=()=>{
             <div className="about-sec-container">
                 <h1 className="about-want-you-title">Want To Choose Our Consultancy Services ?</h1>
                 {/*<button  className="about-button" onClick={()=>{setGotoContact(true)}}>Start</button>*/}
-                <button className="about-want-crack about-btn" onClick={()=>{setGotoContact(true)}} ><span className="about-anchore">Start</span></button>
+
+                <button className="about-want-crack about-btn" onClick={()=>{setGotoContact(true)}}><span className="about-anchore">Start</span></button>
                 </div>
             </div>   
     </div>

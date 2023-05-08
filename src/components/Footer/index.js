@@ -1,5 +1,7 @@
-import { FaFacebookF,FaLinkedinIn,FaSkype,} from "react-icons/fa";
+import { FaFacebookF,FaLinkedinIn} from "react-icons/fa";
 import { MdOutlineCopyright } from "react-icons/md";
+import { SiGmail } from "react-icons/si";
+import { RiInstagramFill } from "react-icons/ri";
 import "./index.css"
 const Footer=()=>(
     <div className="foot-note">
@@ -33,11 +35,12 @@ const Footer=()=>(
                 <li className="footer-style">571-286-9107</li>
                 <li className="footer-style">www.asoftsol.com</li>
                 <li className="footer-style">3718 Block Drive, Irving, Texas, APT 1210</li>
-                <li className="footer-style">Follow Us</li>
+                <li className="footer-style-follow">Follow Us</li>
                 <p className="footer-style"> 
                 <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><FaFacebookF className="footer-FLS-style"/></a>
                 <a href="https://in.linkedin.com/" target="_blank" rel="noreferrer"><FaLinkedinIn className="footer-FLS-style"/></a>
-                <a href="https://www.skype.com/en/" target="_blank" rel="noreferrer"><FaSkype className="footer-FLS-style"/></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><RiInstagramFill className="footer-FLS-style"/></a>
+                <a href="mailto:email@example.com"><SiGmail className="footer-FLS-style"/></a>
                      </p>
             </ul>
     </div>

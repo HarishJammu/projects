@@ -11,9 +11,16 @@ const IndustriesExpo=()=>{
     }
     return(
     <div className="about-container">
-    <div className="industrie-us-title-card">
-        <h1 className="Industries-style">Industries</h1>
-    </div>
+    <div className="about-us-title-card">
+            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683533048/4167276_18771_bnpwq3.jpg" 
+            alt="about-us" 
+            className="about-banner-image"/>
+
+         <div className="banner-card">
+            <h1 className="banner-heading">Industries</h1>
+            <p className="banner-para">let's discuss about our comapny</p>
+         </div>
+        </div> 
      <div className="Service-provides">
         <div className="Service-tags">
                 <span className="industries-title-service">Industries</span>
@@ -35,7 +42,7 @@ implementation, or launch a profitable medical software product or IT initiative
             </div>
             </div>
             <div className="industries-card-details">
-            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683096765/html-css-collage-concept-with-person_dfapw9.jpg" 
+            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683523374/coding-man_jtafwn.jpg" 
             alt="IT-Consultancy" className="industries-images"/>
             <div className="industries-it-consultancy-style-1">
                 <div className="industries-it-consultancy-style-2">

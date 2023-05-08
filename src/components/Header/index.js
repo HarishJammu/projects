@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { FaFacebookF,FaLinkedinIn,FaSkype,} from "react-icons/fa";
-import { TfiEmail } from "react-icons/tfi";
+
+
 import "./index.css"
 
 const Header=()=>{
@@ -8,19 +8,9 @@ const Header=()=>{
 <div id="position">
    <div className="social-meadia">     
    <div className="image-back">
-      <div className="logo-ul-style">
-            <span>
-               <TfiEmail className="Mail-style"/> <span className="company-website">WWW.AsoftSol.com</span></span>
-      </div>  
-      
+       
             </div>
-                  <div className="tags-styles">
-                     <div className="ul-style-mail">
-                     <FaFacebookF className="FLS-style"/>
-                     <FaLinkedinIn className="FLS-style"/>
-                     <FaSkype className="FLS-style"/>
-                     </div>
-                  </div>
+                  
                   </div>
                   
                   <div className="Header-part">
@@ -44,10 +34,8 @@ const Header=()=>{
                      <li className="list-types">
                         <Link to="/contact"  className="Page-list-styles">Contact Us</Link>
                         </li>
-                        <div class="buttons">
-                        <button className="btn-head-button"><Link className="button-link-style" to="/service">Get start</Link>
-                           </button>
-                        </div>
+                        
+                        
                      </ul>
                   </div>
 </div>

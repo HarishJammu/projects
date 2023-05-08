@@ -12,13 +12,18 @@ const Service=()=>{
 return(
 
     <div className="about-container">
-    <div className="-us-title-card-service">
-        <h4 className="Our-title">Our <span className="Our-style">Service</span></h4>
+    <div className="about-us-title-card">
+    <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683525677/7118856_3288524_gfrbmd.jpg" 
+    alt="about-us" className="about-banner-image"/>
+    <div className="banner-card">
+            <h1 className="banner-heading">Servises</h1>
+            <p className="banner-para">let's discuss about our comapny</p>
+         </div>
     </div>
     
      <div className="Service-provides">
         <div className="Service-tags">
-                <span className="-title-service-about">Our Service</span>
+                <span className="-title-service-about">Our Services</span>
                 <span  className="about-title-Explore">Explore Our Services</span>
         </div>
         </div>
