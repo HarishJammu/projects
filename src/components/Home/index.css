@@ -65,7 +65,17 @@
     top: 40%;
     margin-left:22%;
     text-align: center;
+    animation: slide 2s ease-in-out;
 }
+  @keyframes slide {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: 0;
+    }
+  }
+
 
   
 @media screen and (min-width:1025px) and (max-width:1440px){ 
@@ -73,7 +83,7 @@
         position: absolute;
         left: 0;
         width: 60%;
-        top: 60%;
+        top: 70%;
         margin-left:18%;
         text-align: center;
     }
@@ -110,10 +120,11 @@
     font-family: 'Rajdhani', sans-serif;
     font-size: 31px;
     font-weight: bold;
-    color: #d9ff00;
+    color: #f50808;
     padding-bottom: 20px;
     line-height: 15px;
-}
+   
+  }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .Carousel-image-title{
         font-family:  'Rajdhani', sans-serif;
@@ -226,7 +237,8 @@
    transition: 0.5s;
    cursor: pointer;
    text-align: center;
- }
+
+  }
  
  .button-carousel:hover{
      background: #03e9f4;

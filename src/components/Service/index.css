@@ -331,8 +331,8 @@ body{
     transition: transform 0.5s;
 }
 .service-card-details:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: scale(0.9);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .service-card-details{
@@ -384,6 +384,16 @@ body{
     border-top-right-radius:8px ;
     border-top-left-radius:8px ;
 }
+
+/*.services-card-images {
+    transition: transform 0.3s; 
+  }
+  
+  .services-card-images:hover {
+    transform: scale(0.9); 
+  }*/
+
+
 
 @media screen and (min-width:1025px) and (max-width:1440px){
     .services-card-images{

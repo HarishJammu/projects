@@ -54,11 +54,13 @@ const Home =()=>{
     </Carousel>
 		</div>
     
-    
+   
+
     <div className="Our-Services"> 
     <p className="Our-Services-font">Our Servies</p>
         <h3 className="we-offer">Services We Offer</h3>
        <OurServices/>
+    
 </div>
      <Footer/>
 	</div>

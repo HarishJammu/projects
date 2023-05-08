@@ -179,7 +179,7 @@
         }
 }
 .banner-heading{
-    font-family: sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 48px;
     color: #f80f0f;
     font-weight: 700;
@@ -304,8 +304,9 @@
         justify-content: flex-start;
         width:100vw;
         background-color: #ffffff;
-        margin-top: 60px;
+        margin-bottom: 60px;
         flex-wrap: wrap;
+
     }
 }
 @media screen and (min-width:300px) and (max-width:365px){
@@ -353,6 +354,9 @@
     margin-left: 15px;
     margin-right: 20px;
 }
+
+
+
 @media screen and (min-width:1025px) and (max-width:1440px){
     .about-details-image{
         height: 55vh;
