@@ -10,143 +10,68 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 40vh;
+    height: 60vh;
     width: 100vw;
-    background: rgb(228,228,228);
-    background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
+    background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683810845/contact-us-banner_bj6wcx.jpg");
+    background-size:  cover;
+    background-position: center;
+    position: relative;
+    animation: slide 2s ease-in-out;
 }
+  @keyframes slide {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: 0;
+    }
+  }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .contact-us-title-card{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 40vh;
-        width: 100vw;
-        background: rgb(228,228,228);
-        background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
+        height: 60vh;
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683811251/contact-us-banner1280_m1enpg.jpg");
+        background-size:  cover;
+        background-position: center;
     }
 }
 @media screen and (min-width:300px) and (max-width:365px){
     .contact-us-title-card{
         height:30vh;
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683811251/contact-us-banner360_cbzyx2.jpg");
+        background-size:  cover;
+        background-position: center;
     }
 }
 @media screen and (min-width:366px) and (max-width:475px){
     .contact-us-title-card{
         height:35vh;
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683811251/contact-us-banner475_tigsfc.jpg");
+        background-size:  cover;
+        background-position: center;
     }
 }
 @media screen and (min-width:476px) and (max-width:768px){
     .contact-us-title-card{
         height:40vh;
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683811252/contact-us-banner768_exfdge.jpg");
+        background-size:  cover;
+        background-position: center;
     }
 }
 @media screen and (min-width:769px) and (max-width:1024px){
     .contact-us-title-card{
-        height:40vh;
+        height:60vh;
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683811252/contact-us-banner1024_ocv48c.jpg");
+        background-size:  cover;
+        background-position: center;
     }
 }
 
 
-.Contact-title{
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 48px;
-    color: #f80f0f;
-    font-weight: 700;
-    padding-left: 20px;
-    padding-right: 15px;
-}
-@media screen and (min-width:1025px) and (max-width:1440px){
-    .Contact-title{
-        font-size: 48px;
-        color: #f80f0f;
-        font-weight: 700;
-        padding-left: 20px;
-        padding-right: 15px;
-    }
-}
-@media screen and (min-width:300px) and (max-width:365px){
-    .Contact-title{
-        font-size: 25px;
-        font-weight: 700;
-        padding-left: 20px;
-        padding-right: 15px;
-    }
-}
-@media screen and (min-width:366px) and (max-width:475px){
-    .Contact-title{
-        font-size: 31px;
-        font-weight: 700;
-        padding-left: 20px;
-        padding-right: 15px;
-    }
-}
-@media screen and (min-width:476px) and (max-width:768px){
-    .Contact-title{
-        font-size: 45px;
-        font-weight: 700;
-        padding-left: 20px;
-        padding-right: 15px;
-    }
-}
-@media screen and (min-width:769px) and (max-width:1024px){
-    .Contact-title{
-        font-size: 55px;
-        font-weight: 700;
-        padding-left: 20px;
-        padding-right: 15px;
-    }
-}
 
-.contact-style{
-    font-family: "Noto Sans", sans-serif;
-    font-size: 48px;
-    color: #030a11d8;
-    font-weight: 700;
-    padding-left: 20px;
-}
-@media screen and (min-width:1025px) and (max-width:1440px){
-    .contact-style{
-        
-        font-size: 48px;
-        color: #030a11d8;
-        font-weight: 700;
-        padding-left: 20px;
-    }
-}
-@media screen and (min-width:300px) and (max-width:365px){
-    .contact-style{
-        font-size: 27px;
-        color: #030a11d8;
-        font-weight: 700;
-        padding-left: 10px;
-    }
-}
-
-
-@media screen and (min-width:366px) and (max-width:475px){
-    .contact-style{
-        font-size: 31px;
-        font-weight: 700;
-        padding-left: 10px;
-    }
-}
-@media screen and (min-width:476px) and (max-width:768px){
-    .contact-style{
-        font-size: 45px;
-        color: #030a11d8;
-        font-weight: 700;
-        padding-left: 10px;
-    }
-}
-@media screen and (min-width:769px) and (max-width:1024px){
-    .contact-style{
-        font-size: 55px;
-        color: #030a11d8;
-        font-weight: 700;
-        padding-left: 10px;
-    }
-}
 
 .Contact-us-stylings{
     display: flex;
@@ -1120,7 +1045,12 @@
     color:rgb(0, 128, 0);
     padding-top: 10px;
 }
-
+.form-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
 
 
 

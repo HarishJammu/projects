@@ -9,19 +9,30 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 40vh;
+    height: 60vh;
     width: 100vw;
-    background: rgb(255, 255, 255);
-background: linear-gradient(90deg, rgb(255, 254, 254) 14%, rgb(255, 255, 255) 35%);
+    background-image:url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683895822/banner-industries-1_wtudka.jpg");
+    position: relative;
+    animation: slide 2s ease-in-out;
 }
-
+  @keyframes slide {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: 0;
+    }
+  }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .industrie-us-title-card{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        height: 60vh;
+        height: 65vh;
         width: 100vw;
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683895822/banner-industries-1_wtudka.jpg");
+    background-position: center;
+    background-size: cover;
     }
     
 }
@@ -29,16 +40,18 @@ background: linear-gradient(90deg, rgb(255, 254, 254) 14%, rgb(255, 255, 255) 35
     .industrie-us-title-card{
         height: 30vh;
         width: 100vw;
-        background: rgb(228,228,228);
-        background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683895822/banner-industries-1_wtudka.jpg");
+        background-position: center;
+        background-size: cover;
     }
 }
 @media screen and (min-width:366px)and (max-width:475px){
     .industrie-us-title-card{
         height: 33vh;
         width: 100vw;
-        background: rgb(228,228,228);
-        background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683895822/banner-industries-1_wtudka.jpg");
+    background-position: center;
+    background-size: cover;
     }
 }
 @media screen and (min-width:476px)and (max-width:768px){
@@ -48,8 +61,9 @@ background: linear-gradient(90deg, rgb(255, 254, 254) 14%, rgb(255, 255, 255) 35
         justify-content: center;
         height: 40vh;
         width: 100vw;
-        background: rgb(228,228,228);
-        background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683895822/banner-industries-1_wtudka.jpg");
+    background-position: center;
+    background-size: cover;
     }
 }
 
@@ -58,10 +72,11 @@ background: linear-gradient(90deg, rgb(255, 254, 254) 14%, rgb(255, 255, 255) 35
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 40vh;
+        height: 50vh;
         width: 100vw;
-        background: rgb(228,228,228);
-        background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683895822/banner-industries-1_wtudka.jpg");
+    background-position: center;
+    background-size: cover;
     }
 }
 

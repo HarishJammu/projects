@@ -4,6 +4,7 @@
     height: auto;
     width: 100vw;
 }
+
 *{
     padding: 0;
     margin: 0;
@@ -12,29 +13,189 @@
 body{
     box-sizing: border-box;
 }
-/*.-us-title-card-service{
+.banner-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 25px;
+    position: relative;
+    animation: slide 3s ease-in-out;
+    padding-top: 50px;
+    padding-left: 60px;
+  }
+  @media screen and (min-width:1025px) and (max-width:1440px){
+    .banner-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 50px;
+    position: relative;
+    animation: slide 3s ease-in-out;
+    padding-top: 50px;
+    padding-left: 60px;
+    }
+}
+@media screen and (min-width:300px) and (max-width:365px){
+    .banner-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 25px;
+        position: relative;
+        animation: slide 3s ease-in-out;
+        padding-top: 50px;
+        padding-left: 60px;
+        }
+}
+
+@media screen and (min-width:366px) and (max-width:475px){
+    .banner-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 25px;
+        position: relative;
+        animation: slide 3s ease-in-out;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-left: 10px;
+        }
+}
+@media screen and (min-width:476px) and (max-width:768px){
+    .banner-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 25px;
+        position: relative;
+        animation: slide 3s ease-in-out;
+        padding-top: 40px;
+        padding-left: 5px;
+        padding-right: 10px;
+        }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .banner-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 25px;
+        position: relative;
+        animation: slide 3s ease-in-out;
+        padding-top: 50px;
+        padding-left: 20px;
+        }
+}
+.banner-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    color: #f80f0f;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 15px;
+    animation: animate 3s infinite;
+}
+@keyframes animate {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+
+
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .banner-heading{
+        font-size: 35px;
+        color: #f80f0f;
+        font-weight: 700;
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+}
+@media screen and (min-width:300px) and (max-width:365px){
+    .banner-heading{
+        font-size: 25px;
+        font-weight: 700;
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (min-width:366px) and (max-width:475px){
+    .banner-heading{
+        font-size: 28px;
+        font-weight: 700;
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+}
+@media screen and (min-width:476px) and (max-width:768px){
+    .banner-heading{
+        font-size: 37px;
+        font-weight: 700;
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .banner-heading{
+        font-size: 27px;
+        font-weight: 700;
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+}
+.-us-title-card-service{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 40vh;
+    height: 60vh;
     width: 100vw;
-    background: rgb(255, 255, 255);
-   
+    position: relative;
+    background-image:url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683696594/our-services-_pzc8jo.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    animation: slide 2s ease-in-out;
 }
+  @keyframes slide {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: 0;
+    }
+  }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .-us-title-card-service{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 55vh;
+        height: 70vh;
         width: 100vw;
-       
+        margin-left: 0px;
+        margin-top:0px ;
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683698465/our-services-_1300_pnjejr.jpg");
+        background-size: cover;
+        background-position: center;
     }
 }
 @media screen and (min-width:300px)and (max-width:365px){
     .-us-title-card-service{
         height: 30vh;
         width: 100vw;
+        background-position: center;
+        background-size: cover;
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683697816/our-services-_360_frf9go.jpg");
        
     }
 }
@@ -42,7 +203,9 @@ body{
     .-us-title-card-service{
         height: 30vh;
         width: 100vw;
-        
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683697816/our-services-_360_frf9go.jpg");
+        background-size: cover;
+        background-position: center;
     }
 }
 @media screen and (min-width:476px)and (max-width:768px){
@@ -50,23 +213,26 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 60vh;
+        height:  25vh;
         width: 100vw;
-        
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683697429/our-services-_768_foklo3.jpg");
     }
 }
+
+
 @media screen and (min-width:769px)and (max-width:1024px){
     .-us-title-card-service{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 40vh;
+        height: 60vh auto;
         width: 100vw;
-        background: rgb(228,228,228);
-        background: linear-gradient(90deg, rgba(228,228,228,1) 14%, rgba(255,255,255,1) 35%);
+        background-position: center;
+        background-size: cover;
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683697292/our-services-_1025_vnrmhy.jpg");
     }
 }
-*/
+
 
 
 .about-details{

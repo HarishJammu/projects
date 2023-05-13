@@ -40,14 +40,16 @@ const  ContactUs =()=>{
         
     return(
     <div className="contact-container">
-    <div className="about-us-title-card">
-            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683533738/20230508114523__fpdl.in__flat-design-illustration-customer-support_23-2148887720_bdu491.jpg" 
+    <div className="contact-us-title-card">
+            {/*<img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683533738/20230508114523__fpdl.in__flat-design-illustration-customer-support_23-2148887720_bdu491.jpg" 
             alt="about-us" 
             className="about-banner-image"/>
          <div className="banner-card">
             <h1 className="banner-heading">Contact Us</h1>
             <p className="banner-para">We are here to help and answer any question you might have. We look forward to hearing from you</p>
-         </div>
+            <p className="banner-para">Looking to discuss a potential business services, kick off a new project, or to learn more about us, 
+            we’re here to help.</p>
+         </div>*/}
         </div> 
     <div className="Contact-us-stylings">
         <div className="Contact-details">
@@ -59,24 +61,23 @@ const  ContactUs =()=>{
         <div className="Contact-details">
             <ImMobile className="contact-location-logo"/>
         <p className="location-title">Give Us A Call</p>
-        <p className="location-details-number">572-286-9107</p>
+        <p ><p><a className="location-details-number" href="tel:572-286-9107">572-286-9107</a></p></p>
         </div>
         <div className="v1"></div>
         <div className="Contact-details">
             <VscMail className="contact-location-logo"/>
         <p className="location-title">Mail With Us</p>
-        <p className="-details-mail-location">asoftsol@gmail.com</p>
+        <p className="-details-mail-location"><a href="mailto:email@example.com" className="-details-mail-location">info@asoftsol.com</a></p>
+        
         </div>
     </div>
     <div className="Have-a-quation">
         <div className="Have-a-quation-2">
-        <span className="have-any-quations-contact">Contact Us</span>
         <h1 className="have-any-quations-title">Have Any Questions?</h1>
         <p className="send-your-quaries-feeback">
         Send your Queries and Feedback
         </p>
         <div>
-
         <form  ref={form} className="form-background" onSubmit={sendEmail}>
             <label className="label-name">Name</label>
             <input placeholder="Enter Your Name" value={name} name="name" type="text" className="input-styles"

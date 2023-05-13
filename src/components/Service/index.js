@@ -12,27 +12,23 @@ const Service=()=>{
 return(
 
     <div className="about-container">
-    <div className="about-us-title-card">
-    <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683525677/7118856_3288524_gfrbmd.jpg" 
-    alt="about-us" className="about-banner-image"/>
+    <div className="-us-title-card-service">
+   
     <div className="banner-card">
-            <h1 className="banner-heading">Servises</h1>
-            <p className="banner-para">
-            At [Company Name], we offer a range of consultancy services to help businesses 
-            achieve their goals and grow their bottom line. Our team of experienced 
-            professionals brings a wealth of knowledge and expertise to the table, and we are 
-            committed to delivering the highest level of service to our clients.</p>
-            <p className="banner-para">Welcome to our consultancy services page! We are a team of experienced
+            
+           
+           { /*<p className="banner-para">Welcome to our consultancy services page! We are a team of experienced
             professionals who provide consulting services for a wide range of industries. Our team includes
              experts in strategy, operations, technology, and marketing, and we work with clients of all sizes, 
-             from startups to large corporations.</p>
+             from startups to large corporations.</p>*/}
 
          </div>
+        
     </div>
-    
+
      <div className="Service-provides">
-        <div className="Service-tags">
-                <span  className="about-title-Explore">Explore Our Services</span>
+      <div className="Service-tags">
+      {  /*<h>Explored our services</h>*/}
         </div>
         </div>
         <div className="our-services-details">

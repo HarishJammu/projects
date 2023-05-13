@@ -9,21 +9,21 @@ const IndustriesExpo=()=>{
     if (gotoContact){
         return <Navigate to="/contact"/>
     }
+
     return(
     <div className="about-container">
-    <div className="about-us-title-card">
-            <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683533048/4167276_18771_bnpwq3.jpg" 
+    <div className="industrie-us-title-card">
+           {/* <img src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683533048/4167276_18771_bnpwq3.jpg" 
             alt="about-us" 
             className="about-banner-image"/>
 
          <div className="banner-card">
             <h1 className="banner-heading">Industries</h1>
-            <p className="banner-para">We are a team of experienced consultants who provide customized 
-            solutions to businesses across various industries. Our expertise spans multiple domains, 
-            including marketing, sales, operations, finance, and more. We believe in working closely 
-            with our clients to understand their unique challenges and goals and then delivering 
-            tailored solutions that help them achieve success.</p>
-         </div>
+            <p className="banner-para">Asoftsol brings the best from both software worlds to your industry. 
+            Partnering with us will help you get our strong expertise in building wide-ranging custom software. With the 
+            upgraded platform and our expertise, we can help you build impactful software solutions for your 
+            industry faster than ever before.</p>
+         </div>*/}
         </div> 
      <div className="Service-provides">
         <div className="Service-tags">

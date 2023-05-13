@@ -40,7 +40,7 @@ const Footer=()=>(
                 <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><FaFacebookF className="footer-FLS-style facebook-color"/></a>
                 <a href="https://in.linkedin.com/"  target="_blank" rel="noreferrer"><FaLinkedinIn className="footer-FLS-style linkedin-color"/></a>
                 <a href="https://www.instagram.com/"  target="_blank" rel="noreferrer"><RiInstagramFill className="footer-FLS-style instagram-color"/></a>
-                <a href="mailto:email@example.com" ><SiGmail className="footer-FLS-style email-color"/></a>
+                <a href="mailto:info@asoftsol.com" ><SiGmail className="footer-FLS-style email-color"/></a>
                      </p>
             </ul>
     </div>
