@@ -67,10 +67,6 @@
         background-position: center;
     }
 }
-
-
-
-
 .Contact-us-stylings{
     display: flex;
     flex-direction: row;
@@ -540,10 +536,6 @@
     }
 }
 
-
-
-
-
 .Have-a-quation-2{
     display: flex;
     flex-direction: column;
@@ -594,9 +586,6 @@
         width:60vw;
     }
 }
-
-
-
 
 .have-any-quations-contact{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -1054,6 +1043,3 @@
     justify-content: flex-start;
     flex-wrap: wrap;
 }
-
-
-
