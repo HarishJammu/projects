@@ -434,7 +434,7 @@ ul{
 }
 @media Screen and (min-width:366px) and (max-width:475px){
     .copy-logo-style{
-        font-size: 13px;
+        font-size: 11px;
      }
 }
 @media Screen and (min-width:476px) and (max-width:768px){

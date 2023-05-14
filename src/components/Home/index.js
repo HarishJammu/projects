@@ -25,7 +25,7 @@ const Home =()=>{
           alt="With Us, Your Goals Are Not Far"/>
         <Carousel.Caption className="Carousel-Caption">
         
-          <h3 className="Carousel-image-title">With Us, Your Goals Are Not Far</h3>
+          <h3 className="title-background"><span className="Carousel-image-title">With Us, Your Goals Are Not Far</span></h3>
          
       {/* <p className="Carousel-image-para">Group of Experts who are specialized in Business 
 			Consultancy and can help you assist the right solutions for your company growt</p>
@@ -42,7 +42,7 @@ const Home =()=>{
           src="https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683351916/business-meeting-office_1_czaioa.jpg"
           alt="Second slide"/>
         <Carousel.Caption className="Carousel-Caption">
-          <h3 className="Carousel-image-title" >You've Come To The Right Place</h3>
+        <h3 className="title-background"><span className="Carousel-image-title">You've Come To The Right Place</span></h3>
           
           {/*<p className="Carousel-image-para">Professionals And Experienced In IT & Business Consultancy.</p>
           <button className="carousel-more-button-know">

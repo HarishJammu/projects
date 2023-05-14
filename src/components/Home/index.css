@@ -42,7 +42,7 @@
 }
 @media screen and (min-width:476px) and (max-width:768px){
     .Carousel-Item{
-        height: 70vh;
+        height: 50vh;
         width: 100vw;
     }
 }
@@ -83,7 +83,7 @@
         position: absolute;
         left: 0;
         width: 60%;
-        top: 70%;
+        top: 60%;
         margin-left:18%;
         text-align: center;
     }
@@ -98,37 +98,90 @@
 @media screen and (min-width:366px) and (max-width:475px){
     .Carousel-Caption{
         width: 70%;
-        top: 35%;
+        top: 60%;
         margin-left:17%;
     }
 }
 @media screen and (min-width:476px) and (max-width:768px){
     .Carousel-Caption{
         width: 80%;
-        top: 40%;
-        margin-left:19%;
+        top: 60%;
+        margin-left:12%;
     }
 }
 @media screen and (min-width:769px) and (max-width:1024px){
     .Carousel-Caption{
         width: 80%;
-        top: 40%;
+        top: 60%;
         margin-left:14%;
+    }
+}
+.title-background{
+    background-color: #061617;
+    height: 60px;
+    width: auto;
+   opacity: 0.8;
+   padding-top: 20px;
+}
+@media screen and (min-width:1025px) and (max-width:1440px){ 
+    .title-background{
+        background-color: #061617;
+        height: 60px;
+        width: auto;
+       opacity: 0.8;
+       padding-top: 20px;
+    }
+}
+@media screen and (min-width:300px) and (max-width:365px){
+    .title-background{
+        background-color: #061617;
+        height: 60px;
+        width: auto;
+       opacity: 0.8;
+       padding-top: 20px;
+    }
+}
+@media screen and (min-width:366px) and (max-width:475px){
+    .title-background{
+        background-color: #061617;
+        height: 30px;
+        width: auto;
+       opacity: 0.8;
+       padding-top: 0px;
+    }
+}
+@media screen and (min-width:476px) and (max-width:768px){
+    .title-background{
+        background-color: #061617;
+        height: 40px;
+        width: 500px;
+       opacity: 0.8;
+       padding-top: 4px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .title-background{
+        background-color: #061617;
+        height: 60px;
+        width: auto;
+       opacity: 0.8;
+       padding-top: 15px;
     }
 }
 .Carousel-image-title{
     font-family: 'Rajdhani', sans-serif;
     font-size: 31px;
     font-weight: bold;
-    color: #f50808;
+    color: #ffffff;
     padding-bottom: 20px;
     line-height: 15px;
+    text-shadow: black;
    
   }
 @media screen and (min-width:1025px) and (max-width:1440px){
     .Carousel-image-title{
         font-family:  'Rajdhani', sans-serif;
-        font-size: 50px;
+        font-size: 60px;
         font-weight: 700;
         padding-bottom: 20px;
         line-height: 15px;

@@ -11,7 +11,7 @@
     justify-content: center;
     height: 60vh;
     width: 100vw;
-    background-image:url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683895822/banner-industries-1_wtudka.jpg");
+    background-image:url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1684141694/industries-slide1440_sv0ltk.jpg");
     position: relative;
     animation: slide 2s ease-in-out;
 }
@@ -30,7 +30,7 @@
         justify-content: center;
         height: 65vh;
         width: 100vw;
-        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683895822/banner-industries-1_wtudka.jpg");
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1684147562/industries-slide1400_ozv8yb.jpg");
     background-position: center;
     background-size: cover;
     }
@@ -40,7 +40,7 @@
     .industrie-us-title-card{
         height: 30vh;
         width: 100vw;
-        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683895822/banner-industries-1_wtudka.jpg");
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1684147562/industries-slide365_eoynvk.jpg");
         background-position: center;
         background-size: cover;
     }
@@ -49,7 +49,7 @@
     .industrie-us-title-card{
         height: 33vh;
         width: 100vw;
-        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683895822/banner-industries-1_wtudka.jpg");
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1684147562/industries-slide475_tubonh.jpg");
     background-position: center;
     background-size: cover;
     }
@@ -61,7 +61,7 @@
         justify-content: center;
         height: 40vh;
         width: 100vw;
-        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683895822/banner-industries-1_wtudka.jpg");
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1684147562/industries-slide768_bwtbd4.jpg");
     background-position: center;
     background-size: cover;
     }
@@ -74,7 +74,7 @@
         justify-content: center;
         height: 50vh;
         width: 100vw;
-        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1683895822/banner-industries-1_wtudka.jpg");
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1684147562/industries-slide1024_ck0ipp.jpg");
     background-position: center;
     background-size: cover;
     }
